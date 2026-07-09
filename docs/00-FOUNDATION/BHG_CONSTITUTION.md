@@ -1,226 +1,263 @@
-# Constitución de Breto's Holding Group (BHG)
+---
+title: BHG Constitution
+version: 1.1.0
+status: Approved
+document-type: Constitution
+governance-level: Supreme
+owner: BHG Governance Council
+approval-authority: BHG Governance Council
+effective-date: 2026-01-01
+language: en
+audience:
+  - Board
+  - Executives
+  - Managers
+  - Employees
+  - AI Systems
+classification: Internal
+applies-to:
+  - Entire BHG Ecosystem
+supersedes:
+  - BHG Constitution v1.0.0
+related-documents:
+  - AUTHORITY_MODEL.md
+  - AUTHORITY_MATRIX.md
+  - GOVERNANCE_MODEL.md
+  - GOVERNANCE_EVOLUTION_POLICY.md
+  - LEGAL_HIERARCHY.md
+---
 
-> **Norma Fundamental del Ecosistema Corporativo BHG**
+# BHG Constitution
+
+> Supreme Governing Document of Breto's Holding Group
 
 ---
 
-# Estado del documento
+# Preamble
 
-**Versión:** 1.0.0
+Breto's Holding Group exists to transform organized knowledge into sustainable organizations, products, services and technological infrastructure.
 
-**Estado:** Vigente
+This Constitution establishes the immutable principles that govern the entire ecosystem and defines the limits under which every organizational unit, repository, project, AI system and governance body shall operate.
 
-**Nivel normativo:** Constitución
-
-**Autoridad:** Suprema
+Its purpose is not to restrict innovation, but to enable safe, scalable and traceable innovation.
 
 ---
 
-# Preámbulo
+# Title I — Identity
 
-Breto's Holding Group nace con la convicción de que el conocimiento organizado constituye el activo más valioso para construir organizaciones sostenibles.
+## Article 1
 
-Las empresas, los productos y la tecnología evolucionan con el tiempo. Los principios, la gobernanza y el conocimiento bien estructurado permiten que esa evolución ocurra de forma consistente, responsable y trazable.
+Breto's Holding Group is a knowledge-driven corporate ecosystem governed through documented principles.
 
-Esta Constitución establece los fundamentos permanentes sobre los que se desarrollará todo el ecosistema BHG, asegurando que cada decisión, innovación y sistema responda a un propósito común y a un marco de gobernanza estable.
+## Article 2
 
----
+Knowledge is the primary strategic asset of the Holding.
 
-# TÍTULO I — Naturaleza del Holding
+## Article 3
 
-## Artículo I.1 — Identidad
-
-Breto's Holding Group es una organización basada en conocimiento, gobernada por principios y orientada a la creación de sistemas, productos, servicios y empresas sostenibles.
-
-## Artículo I.2 — Finalidad
-
-El Holding existe para transformar conocimiento organizado en soluciones de valor mediante procesos documentados, trazables y en mejora continua.
-
-## Artículo I.3 — Alcance
-
-Esta Constitución es obligatoria para todas las entidades, repositorios, proyectos, sistemas y activos que formen parte del ecosistema BHG.
+Every entity belonging to the ecosystem shall operate under this Constitution.
 
 ---
 
-# TÍTULO II — Propósito Institucional
+# Title II — Mission
 
-## Artículo II.1
-
-El conocimiento constituye el activo estratégico principal del Holding.
-
-## Artículo II.2
-
-Toda actividad deberá contribuir al fortalecimiento del conocimiento institucional.
-
-## Artículo II.3
-
-Las decisiones deberán fundamentarse en evidencia, análisis y documentación suficiente.
+The mission of BHG is to transform organized knowledge into sustainable value through governance, engineering and continuous innovation.
 
 ---
 
-# TÍTULO III — Principios Fundamentales
+# Title III — Vision
 
-## Artículo III.1
-
-La gobernanza prevalece sobre la implementación.
-
-## Artículo III.2
-
-Toda decisión relevante deberá ser trazable.
-
-## Artículo III.3
-
-La documentación institucional forma parte del producto.
-
-## Artículo III.4
-
-La innovación deberá desarrollarse de forma sistemática y documentada.
-
-## Artículo III.5
-
-La mejora continua constituye un principio permanente.
-
-## Artículo III.6
-
-La inteligencia artificial actúa como apoyo a la toma de decisiones, sin sustituir la autoridad de los órganos competentes.
-
-## Artículo III.7
-
-La calidad deberá incorporarse desde el diseño.
-
-## Artículo III.8
-
-La seguridad deberá considerarse en todas las fases del ciclo de vida de los sistemas.
-
-## Artículo III.9
-
-Toda norma inferior deberá respetar esta Constitución.
-
-## Artículo III.10
-
-El conocimiento bien organizado multiplica el valor de las ideas.
+To become a globally recognized governance-driven corporate ecosystem where knowledge, technology and human decision-making create long-term sustainable impact.
 
 ---
 
-# TÍTULO IV — Jerarquía Normativa
+# Title IV — Constitutional Principles
 
-## Artículo IV.1
+## Article 4.1
 
-La jerarquía normativa del ecosistema será:
+Governance precedes implementation.
 
-1. Constitución.
-2. Modelo de Gobernanza.
-3. Modelos de Autoridad.
-4. Políticas.
-5. Estándares.
-6. Procedimientos.
-7. Implementaciones.
+## Article 4.2
 
-## Artículo IV.2
+Documentation is part of the product.
 
-Ninguna norma de nivel inferior podrá contradecir una de nivel superior.
+## Article 4.3
 
----
+Every relevant decision shall be traceable.
 
-# TÍTULO V — Gobernanza
+## Article 4.4
 
-## Artículo V.1
+Knowledge compounds organizational value.
 
-La gobernanza del Holding será ejercida mediante órganos permanentes definidos en los documentos correspondientes.
+## Article 4.5
 
-## Artículo V.2
+Continuous improvement is permanent.
 
-Las responsabilidades deberán estar claramente asignadas y documentadas.
+## Article 4.6
 
-## Artículo V.3
+Quality shall be designed, not inspected.
 
-Toda modificación normativa seguirá un proceso formal de evaluación, aprobación y registro.
+## Article 4.7
 
----
+Security shall exist by design.
 
-# TÍTULO VI — Conocimiento e Innovación
+## Article 4.8
 
-## Artículo VI.1
+Innovation shall always remain documented.
 
-Todo conocimiento relevante deberá conservarse de forma estructurada.
+## Article 4.9
 
-## Artículo VI.2
+Lower-level governance artifacts shall never contradict higher-level artifacts.
 
-Las ideas constituyen activos potenciales y deberán registrarse antes de su implementación.
+## Article 4.10 — Governance as Code
 
-## Artículo VI.3
+Governance shall be designed as machine-readable, traceable and continuously auditable artifacts, enabling automated compliance verification without replacing human authority.
 
-La evolución del conocimiento nunca eliminará su historial.
+## Article 4.11 — Human Authority Principle
 
----
+Only authorized human governance bodies may approve, reject or modify official governance artifacts.
 
-# TÍTULO VII — Tecnología e Inteligencia Artificial
+## Article 4.12 — AI Organizational Participant
 
-## Artículo VII.1
+Artificial Intelligence systems are recognized as organizational participants with operational responsibilities but without governance authority.
 
-La tecnología es un medio para cumplir el propósito institucional, no un fin en sí misma.
+AI systems may:
 
-## Artículo VII.2
+- Observe
+- Audit
+- Analyze
+- Simulate
+- Recommend
+- Document
 
-Todo sistema deberá diseñarse para evolucionar de forma controlada.
+AI systems shall never:
 
-## Artículo VII.3
+- Approve governance
+- Vote
+- Modify constitutional documents
+- Override human decisions
+- Publish official governance artifacts
 
-Los sistemas de inteligencia artificial podrán analizar, relacionar información y emitir recomendaciones fundamentadas.
+## Article 4.13 — Governance Chain
 
-## Artículo VII.4
+Every governance proposal shall follow the official governance chain established by the Authority Model.
 
-Ningún sistema automatizado tendrá autoridad para modificar directamente esta Constitución ni cualquier otra norma corporativa. Toda modificación requerirá el proceso formal de gobernanza y la aprobación de la autoridad competente.
-
----
-
-# TÍTULO VIII — Calidad y Certificación
-
-## Artículo VIII.1
-
-Los productos y sistemas estratégicos podrán someterse a procesos corporativos de certificación.
-
-## Artículo VIII.2
-
-La calidad será verificable mediante estándares objetivos y auditorías.
+No governance modification may bypass the defined approval hierarchy.
 
 ---
 
-# TÍTULO IX — Seguridad
+# Title V — Governance Hierarchy
 
-## Artículo IX.1
+The governance hierarchy shall be:
 
-La protección de la información, la propiedad intelectual y la continuidad operativa constituye una responsabilidad permanente del Holding.
+1. Constitution
 
-## Artículo IX.2
+2. Governance Models
 
-La gestión de riesgos deberá integrarse en todas las actividades estratégicas.
+3. Authority Models
 
----
+4. Policies
 
-# TÍTULO X — Evolución Constitucional
+5. Standards
 
-## Artículo X.1
+6. Procedures
 
-La presente Constitución podrá evolucionar únicamente mediante el procedimiento establecido por el Modelo de Gobernanza.
-
-## Artículo X.2
-
-Toda modificación deberá preservar la trazabilidad histórica de las versiones anteriores.
+7. Implementations
 
 ---
 
-# Disposiciones Finales
+# Title VI — Organizational Governance
 
-La presente Constitución entra en vigor desde su aprobación oficial y constituye la autoridad normativa suprema de Breto's Holding Group.
+Every governance responsibility shall have:
 
-Todo documento, política, estándar, procedimiento, sistema o repositorio desarrollado dentro del ecosistema BHG deberá alinearse con los principios aquí establecidos.
+- an owner
+
+- an approval authority
+
+- documented accountability
+
+- traceability
+
+- version history
 
 ---
 
-# Principio Institucional
+# Title VII — Governance Evolution
 
-> El conocimiento bien organizado multiplica el valor de las ideas.
+Governance evolves through controlled improvement.
 
-> En Breto's Holding Group transformamos el conocimiento en sistemas, los sistemas en empresas y las empresas en impacto sostenible.
+Every governance change shall:
 
+- preserve history
+
+- include evidence
+
+- document impact
+
+- undergo human review
+
+- remain fully traceable
+
+---
+
+# Title VIII — Artificial Intelligence
+
+AI systems support governance.
+
+They do not govern.
+
+They enhance governance through continuous analysis, auditing, simulation and recommendations.
+
+Human governance bodies retain exclusive decision-making authority.
+
+---
+
+# Title IX — Knowledge
+
+Knowledge shall be:
+
+- documented
+
+- versioned
+
+- reusable
+
+- searchable
+
+- protected
+
+- continuously improved
+
+---
+
+# Title X — Security
+
+Security protects:
+
+- information
+
+- governance
+
+- intellectual property
+
+- organizational continuity
+
+Security requirements apply to every governance artifact.
+
+---
+
+# Final Provisions
+
+This Constitution is the supreme governing authority of Breto's Holding Group.
+
+Every repository, company, subholding, subsidiary, project, service, product and AI system shall comply with its principles.
+
+Failure to comply constitutes a governance non-conformity.
+
+---
+
+# Institutional Principle
+
+> Organized knowledge multiplies the value of ideas.
+
+> Governance enables sustainable innovation.
