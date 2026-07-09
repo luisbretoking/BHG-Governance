@@ -1,181 +1,177 @@
+---
+title: Authority Matrix
+version: 1.1.0
+status: Approved
+document-type: Governance Matrix
+governance-level: Foundation
+owner: BHG Governance Council
+approval-authority: BHG Governance Council
+language: en
+classification: Internal
+applies-to:
+  - Entire BHG Ecosystem
+supersedes:
+  - Authority Matrix v1.0.0
+governed-by:
+  - BHG_CONSTITUTION.md
+  - AUTHORITY_MODEL.md
+related-documents:
+  - GOVERNANCE_PIPELINE.md
+  - GOVERNANCE_PROPOSAL_STANDARD.md
+---
+
 # Authority Matrix
 
-| Metadata | Value |
-|----------|-------|
-| Document ID | GOV-004 |
-| Version | 1.0.0 |
-| Status | Approved |
-| Owner | Breto's Holding Group Governance Council |
-| Classification | Foundation |
-| Source of Truth | This document |
-| Last Updated | YYYY-MM-DD |
+## Purpose
+
+This document defines the governance permissions associated with every authority level inside the BHG ecosystem.
+
+It establishes who may propose, review, approve, implement and audit governance actions.
+
+Authority belongs to governance roles rather than individuals.
 
 ---
 
-# 1. Purpose
+# Governance Roles
 
-This document defines the official distribution of institutional authority across the Breto's Holding Group ecosystem.
+The official governance roles are:
 
-Authority exists to ensure accountability, consistency and responsible decision-making.
+1. Employee
 
-No authority shall exist without clearly defined responsibilities.
+2. Team Leader
 
----
+3. Department Manager
 
-# 2. Governance Levels
+4. Department Director
 
-The governance hierarchy consists of the following levels:
+5. Company Governance Committee
 
-1. Breto's Holding Group
-2. SubHolding
-3. Company
-4. Department
-5. Project
-6. Team
+6. Company CEO
 
-Each level operates within its defined scope.
+7. Subholding Governance Committee
 
----
+8. Subholding CEO
 
-# 3. Corporate Authority
+9. BHG Governance Council
 
-Breto's Holding Group holds exclusive authority over:
-
-- Corporate Constitution
-- Corporate Governance
-- Corporate Principles
-- Legal Hierarchy
-- Corporate Policies
-- Corporate Standards
-- Brand Governance
-- Intellectual Property Governance
-
-These authorities cannot be delegated.
+10. BHG Board
 
 ---
 
-# 4. Governance Council Authority
+# Governance Permission Matrix
 
-The Governance Council may:
-
-- Approve governance amendments.
-- Interpret constitutional principles.
-- Resolve governance conflicts.
-- Authorize governance exceptions.
-- Preserve institutional coherence.
-
----
-
-# 5. SubHolding Authority
-
-Each SubHolding may establish:
-
-- Operational governance.
-- Business policies.
-- Technical standards.
-- Product governance.
-- Internal procedures.
-
-SubHolding governance shall remain compatible with corporate governance.
+| Governance Activity | Employee | Team Leader | Department Manager | Department Director | Company Governance Committee | Company CEO | Subholding Governance Committee | Subholding CEO | BHG Governance Council | BHG Board |
+|----------------------|----------|-------------|--------------------|---------------------|------------------------------|-------------|---------------------------------|----------------|------------------------|-----------|
+| Submit Governance Proposal | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Review Proposal | — | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Request AI Analysis | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Request Risk Assessment | — | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Approve Department Procedures | — | — | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Approve Company Policies | — | — | — | — | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Approve Company Standards | — | — | — | — | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Approve Company Governance Documents | — | — | — | — | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Approve Subholding Governance | — | — | — | — | — | — | ✓ | ✓ | ✓ | ✓ |
+| Approve Constitutional Changes | — | — | — | — | — | — | — | — | ✓ | ✓ |
+| Publish Governance Documents | — | — | — | — | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Perform Governance Audit | — | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Escalate Governance Issues | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 ---
 
-# 6. Company Authority
+# Artificial Intelligence Permissions
 
-Each company may define:
+Authorized AI systems may:
 
-- Internal workflows.
-- Operational procedures.
-- Team structures.
-- Product documentation.
-- Technical implementation standards.
+- observe repositories
 
-Companies shall not modify corporate governance.
+- audit governance compliance
 
----
+- validate references
 
-# 7. Department Authority
+- detect inconsistencies
 
-Departments may establish:
+- generate reports
 
-- Internal operating procedures.
-- Team guidelines.
-- Department documentation.
-- Operational practices.
+- simulate governance impact
 
-Department authority remains limited to departmental scope.
+- prepare governance proposals
 
----
+- recommend improvements
 
-# 8. Project Authority
+AI systems shall never:
 
-Projects may define:
+- approve governance
 
-- Technical decisions.
-- Project architecture.
-- Sprint planning.
-- Backlogs.
-- Documentation.
-- Development workflows.
+- reject governance
 
-Project governance shall never contradict higher governance layers.
+- publish governance artifacts
+
+- override governance decisions
+
+- vote
+
+- modify governance documentation directly
 
 ---
 
-# 9. Artificial Intelligence Authority
+# Escalation Principle
 
-Artificial Intelligence possesses advisory authority only.
+Every governance proposal shall be evaluated at the lowest competent governance level.
 
-AI may:
+Only proposals exceeding the authority of that level shall be escalated upward through the Governance Chain.
 
-- Analyze.
-- Simulate.
-- Recommend.
-- Review.
-- Document.
-- Detect inconsistencies.
-- Generate evidence.
-
-AI shall never:
-
-- Exercise institutional authority.
-- Approve governance.
-- Override human decisions.
-- Assume legal responsibility.
+Authority escalation shall always preserve complete traceability.
 
 ---
 
-# 10. Delegation
+# Local Governance
 
-Authority may be delegated only when explicitly documented.
+Companies, Subsidiaries and Subholdings may define additional governance roles.
 
-Responsibility remains with the delegating authority unless otherwise specified.
+Additional roles shall:
 
-Delegation shall never transfer constitutional authority.
+- remain documented
 
----
+- remain traceable
 
-# 11. Conflict Resolution
+- remain compatible with this Authority Matrix
 
-Authority conflicts shall be resolved according to:
-
-1. Legal Hierarchy
-2. Governance Hierarchy
-3. Scope of Authority
-4. Governance Harmony Principle
-
-Higher governance layers prevail only when acting within their defined authority.
+- never reduce constitutional governance requirements
 
 ---
 
-# 12. Accountability
+# Governance Evidence
 
-Every authority level remains accountable for its own decisions.
+Every governance approval shall include:
 
-Authority without accountability is prohibited.
+- proposal identifier
+
+- approval authority
+
+- supporting evidence
+
+- implementation owner
+
+- approval date
+
+- version reference
+
+- audit reference
 
 ---
 
-# 13. Compliance
+# Governance as Code
 
-All entities within the Breto's Holding Group ecosystem shall comply with this Authority Matrix.
+This matrix is intentionally structured to enable automated governance verification.
+
+Authorized AI systems may continuously compare governance actions against this matrix to identify non-conformities.
+
+Machine verification supports governance.
+
+Human authority governs governance.
+
+---
+
+# Compliance
+
+Any governance action executed outside this Authority Matrix shall be treated as a governance non-conformity and shall follow the Governance Conflict Resolution process.
