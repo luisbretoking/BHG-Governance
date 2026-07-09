@@ -1,231 +1,231 @@
+---
+title: Authority Model
+version: 1.1.0
+status: Approved
+document-type: Governance Model
+governance-level: Foundation
+owner: BHG Governance Council
+approval-authority: BHG Governance Council
+language: en
+classification: Internal
+applies-to:
+  - Entire BHG Ecosystem
+supersedes:
+  - Authority Model v1.0.0
+governed-by:
+  - BHG_CONSTITUTION.md
+  - GOVERNANCE_MODEL.md
+related-documents:
+  - AUTHORITY_MATRIX.md
+  - GOVERNANCE_PIPELINE.md
+  - GOVERNANCE_PROPOSAL_STANDARD.md
+---
+
 # Authority Model
 
-> Modelo Oficial de Autoridad de Breto's Holding Group
+## Purpose
+
+This document defines the official authority structure of Breto's Holding Group.
+
+Its objective is to establish a transparent, auditable and scalable decision hierarchy for every governance activity performed inside the ecosystem.
+
+Authority belongs to governance bodies, not to individuals.
+
+Individuals temporarily exercise authority only while officially occupying a governance role.
 
 ---
 
-# Estado
+# Core Principles
 
-Versión: 1.0.0
+## Principle 1
 
-Estado: Activo
+Authority shall always be explicit.
 
-Nivel Normativo: Modelo Fundamental
+No governance artifact may reference an undefined "competent authority."
 
----
-
-# Propósito
-
-Este documento define cómo nace, se delega, se ejerce y se limita la autoridad dentro del ecosistema Breto's Holding Group.
-
-Su objetivo es garantizar una estructura organizacional clara, coherente, escalable y completamente trazable.
-
-Toda autoridad deberá poder justificarse mediante este modelo.
+Every approval authority shall be identified by its governance role.
 
 ---
 
-# Principios Fundamentales
+## Principle 2
 
-## Principio 1 — La autoridad nace en la Constitución
+Authority follows the Governance Chain.
 
-Toda autoridad institucional tiene su origen en la Constitución de Breto's Holding Group.
+Every governance decision shall move through the officially defined authority chain.
 
-Ninguna autoridad puede existir al margen de ella.
-
----
-
-## Principio 2 — La autoridad nunca se presume
-
-Toda autoridad debe encontrarse explícitamente documentada.
-
-Si una autoridad no está documentada, institucionalmente no existe.
+Skipping authority levels is prohibited unless explicitly authorized by governance.
 
 ---
 
-## Principio 3 — La autoridad se delega
+## Principle 3
 
-La Constitución establece la autoridad.
+Authority is delegated, not transferred.
 
-La Gobernanza la organiza.
+Higher governance bodies may delegate operational authority while retaining governance accountability.
 
-Los Consejos la administran.
-
-Los responsables la ejercen.
-
-Los equipos la ejecutan.
+Delegated authority never transfers constitutional responsibility.
 
 ---
 
-## Principio 4 — Toda autoridad posee límites
+## Principle 4
 
-Ninguna autoridad es absoluta.
+Authority is traceable.
 
-Toda autoridad define:
+Every governance decision shall identify:
 
-* alcance;
-* responsabilidades;
-* restricciones;
-* mecanismos de revisión.
-
----
-
-## Principio 5 — La autoridad implica responsabilidad
-
-Toda decisión posee un responsable identificable.
-
-No existen decisiones institucionales anónimas.
+- proposer
+- reviewer
+- approver
+- implementation owner
+- audit owner
 
 ---
 
-## Principio 6 — La autoridad es trazable
+## Principle 5
 
-Toda decisión importante deberá responder como mínimo:
+Authority is documented.
 
-* quién decidió;
-* cuándo;
-* por qué;
-* bajo qué autoridad;
-* sobre qué evidencia;
-* qué normas aplicó.
+Every governance responsibility shall exist inside official documentation before it may be exercised.
 
 ---
 
-## Principio 7 — La autoridad puede auditarse
+# Official Governance Chain
 
-Toda autoridad está sujeta a revisión.
+The official governance chain of BHG is:
 
-La autoridad no elimina la obligación de rendir cuentas.
+1. Employee
 
----
+2. Team Leader
 
-# Cadena de Autoridad
+3. Department Manager
 
-La autoridad fluye de forma descendente:
+4. Department Director
 
-Constitución
+5. Company Governance Committee
 
-↓
+6. Company CEO
 
-Modelo de Gobernanza
+7. Subholding Governance Committee
 
-↓
+8. Subholding CEO
 
-Modelo de Autoridad
+9. BHG Governance Council
 
-↓
-
-Consejos Corporativos
-
-↓
-
-Responsables de Dominio
-
-↓
-
-Equipos
-
-↓
-
-Procesos
-
-↓
-
-Implementaciones
+10. BHG Board
 
 ---
 
-# Tipos de Autoridad
+# Authority Responsibilities
 
-## Autoridad Constitucional
+Each authority level is responsible for:
 
-Máxima autoridad normativa.
-
-No puede ser contradicha.
-
----
-
-## Autoridad Estratégica
-
-Define dirección institucional.
+- protecting governance
+- ensuring compliance
+- documenting decisions
+- preserving traceability
+- escalating unresolved conflicts
+- promoting continuous improvement
 
 ---
 
-## Autoridad Normativa
+# Proposal Escalation
 
-Desarrolla políticas y estándares.
+Every organizational participant may submit a Governance Proposal.
 
----
+Governance proposals shall always move upward through the Governance Chain.
 
-## Autoridad Técnica
-
-Define decisiones de arquitectura e ingeniería.
+No proposal may bypass intermediate governance levels unless defined by emergency governance procedures.
 
 ---
 
-## Autoridad Operativa
+# Human Governance Authority
 
-Ejecuta procesos aprobados.
+Official governance authority belongs exclusively to authorized human governance bodies.
 
----
+Human governance bodies may:
 
-## Autoridad Automatizada
-
-Los sistemas automatizados podrán:
-
-* analizar;
-* recomendar;
-* validar;
-* asistir;
-* automatizar tareas autorizadas.
-
-Nunca podrán modificar directamente la autoridad normativa.
+- approve
+- reject
+- amend
+- suspend
+- repeal
+- publish governance artifacts
 
 ---
 
-# Delegación de Autoridad
+# Artificial Intelligence
 
-Toda delegación deberá indicar:
+Artificial Intelligence systems are organizational participants.
 
-* origen;
-* responsable;
-* alcance;
-* duración (cuando aplique);
-* restricciones;
-* mecanismo de revocación.
+AI systems may:
 
----
+- observe governance
+- audit repositories
+- verify compliance
+- analyze risks
+- simulate impacts
+- prepare governance proposals
+- recommend improvements
 
-# Conflictos de Autoridad
+AI systems shall never:
 
-Cuando existan conflictos prevalecerá siempre el siguiente orden:
-
-1. Constitución.
-2. Modelo de Gobernanza.
-3. Modelo de Autoridad.
-4. Políticas.
-5. Estándares.
-6. Procedimientos.
-7. Implementaciones.
+- approve governance
+- reject governance
+- vote
+- create binding governance
+- publish official governance artifacts
+- bypass the Governance Chain
 
 ---
 
-# Revisión de Autoridad
+# Organizational Autonomy
 
-La autoridad deberá revisarse periódicamente para garantizar:
+Every Company, Subsidiary and Subholding may establish its own governance structure.
 
-* vigencia;
-* coherencia;
-* eficiencia;
-* trazabilidad;
-* alineación estratégica.
+Local governance shall remain harmonized with BHG governance.
+
+Lower governance levels may extend governance.
+
+They shall never contradict higher governance artifacts.
 
 ---
 
-# Principio Final
+# Governance by Evidence
 
-La autoridad existe para proteger la misión del Holding.
+Governance decisions shall prioritize documented evidence over personal opinion.
 
-Nunca para sustituirla.
+Whenever possible, governance decisions shall include:
 
-Toda autoridad deberá utilizarse con responsabilidad, transparencia y respeto por los principios constitucionales de Breto's Holding Group.
+- impact analysis
+- compliance verification
+- traceability
+- implementation assessment
+- AI-assisted analysis
 
+Final authority always belongs to humans.
+
+---
+
+# Governance as Code
+
+Authority definitions shall be structured to enable automated verification by authorized AI systems.
+
+Governance artifacts shall remain:
+
+- machine-readable
+
+- version-controlled
+
+- traceable
+
+- auditable
+
+- interoperable
+
+Automation shall support governance without replacing governance authority.
+
+---
+
+# Compliance
+
+Failure to comply with this Authority Model constitutes a governance non-conformity and shall follow the Governance Conflict Resolution process.
