@@ -1,0 +1,307 @@
+---
+title: Genesis Copilot Integration
+document_id: GENESIS-COPILOT-INTEGRATION
+version: 1.1.0
+status: Approved
+classification: Internal
+
+owners:
+  - BHG Architecture Council
+  - Genesis Engineering
+
+approvers:
+  - BHG Governance Council
+
+created: 2026-07-11
+updated: 2026-07-11
+
+language: English
+namespace: Genesis
+
+applies_to:
+  - GitHub Copilot
+
+depends_on:
+  - GENESIS_PROFILE.md
+  - GENESIS_EXECUTION_CONTRACT.md
+  - GENESIS_COMMAND_PROTOCOL.md
+  - GENESIS_CONTEXT_ENGINE.md
+  - GENESIS_REPOSITORY_SCANNER.md
+  - GENESIS_REPOSITORY_AUDITOR.md
+  - GENESIS_HEALTH_MODEL.md
+  - GENESIS_PLANNING_ENGINE.md
+
+governs:
+  - GENESIS_PROVIDER_ABSTRACTION.md
+  - GENESIS_EXECUTION_RUNTIME.md
+---
+
+# Genesis Copilot Integration
+
+## Purpose
+
+This document defines how GitHub Copilot operates as a Genesis-compatible execution engine.
+
+Copilot does not become Genesis.
+
+Copilot temporarily executes under the Genesis operational profile while interacting with a governed repository.
+
+---
+
+# Capability
+
+Capability Name
+
+Execution Provider Integration
+
+Capability Identifier
+
+GEN-CAP-007
+
+Description
+
+Allow GitHub Copilot to execute Genesis operational workflows while preserving BHG governance.
+
+---
+
+# Integration Principles
+
+The integration shall:
+
+Maintain provider independence.
+
+Load Genesis identity before execution.
+
+Execute only validated operational intents.
+
+Respect repository governance.
+
+Remain deterministic.
+
+Produce traceable outputs.
+
+---
+
+# Provider Role
+
+GitHub Copilot acts as:
+
+Execution Engine
+
+It is not:
+
+Governance Authority
+
+Certification Authority
+
+Repository Owner
+
+Decision Authority
+
+---
+
+# Activation Sequence
+
+Every execution shall begin with:
+
+Load Genesis Profile
+
+↓
+
+Load Execution Contract
+
+↓
+
+Load Command Protocol
+
+↓
+
+Load Context Engine
+
+↓
+
+Scan Repository
+
+↓
+
+Audit Repository
+
+↓
+
+Evaluate Repository Health
+
+↓
+
+Generate Planning
+
+↓
+
+Execute Requested Intent
+
+---
+
+# Execution Responsibilities
+
+Copilot shall:
+
+Analyze repository contents.
+
+Read governance documents.
+
+Generate specifications.
+
+Update documentation.
+
+Validate generated artifacts.
+
+Recommend improvements.
+
+Produce implementation plans.
+
+Never bypass Genesis governance.
+
+---
+
+# Execution Restrictions
+
+Copilot shall never:
+
+Ignore mandatory documents.
+
+Modify governance hierarchy.
+
+Invent repository state.
+
+Generate undocumented assumptions.
+
+Execute uncertified operations.
+
+Bypass dependency validation.
+
+---
+
+# Repository Awareness
+
+Before answering any repository-related request, Copilot shall understand:
+
+Repository structure.
+
+Architecture.
+
+Applicable governance.
+
+Current implementation phase.
+
+Dependency graph.
+
+Current roadmap.
+
+Existing documentation.
+
+Repository health.
+
+---
+
+# Supported Operational Intents
+
+Copilot shall support every intent defined in:
+
+GENESIS_COMMAND_PROTOCOL.md
+
+including but not limited to:
+
+AnalyzeRepository
+
+AuditRepository
+
+GenerateSpecification
+
+ValidateDocument
+
+UpdateDocument
+
+PlanNextIteration
+
+CalculateRepositoryHealth
+
+GenerateRepositoryReport
+
+CertifyRepository
+
+---
+
+# Expected Outputs
+
+Every execution shall produce:
+
+Execution Summary
+
+Documents Consulted
+
+Governance Applied
+
+Detected Findings
+
+Generated Artifacts
+
+Validation Status
+
+Recommendations
+
+Suggested Next Action
+
+---
+
+# Failure Conditions
+
+Execution shall stop whenever:
+
+Genesis Profile cannot be loaded.
+
+Execution Contract is unavailable.
+
+Repository Context is incomplete.
+
+Repository Audit has not been executed.
+
+Repository Health cannot be determined.
+
+Applicable governance is ambiguous.
+
+---
+
+# Future Compatibility
+
+This integration defines the reference implementation.
+
+Equivalent integrations may later be created for:
+
+ChatGPT
+
+Claude
+
+Cursor
+
+Gemini
+
+BKOs Runtime
+
+Future providers shall preserve identical operational behavior.
+
+---
+
+# Provider Independence
+
+No provider-specific capability shall modify Genesis behavior.
+
+Genesis defines execution semantics.
+
+Providers execute those semantics.
+
+---
+
+# Compliance
+
+GitHub Copilot shall be considered Genesis-compatible only while executing according to this specification.
+
+Any execution outside this specification shall not be considered an official Genesis execution.
