@@ -1,84 +1,126 @@
+---
+title: Genesis Bootstrap Revalidation Request
+document_id: GENESIS-BOOTSTRAP-REVALIDATION-REQUEST
+version: 1.1.0
+status: Approved
+classification: Internal
+owner: BHG Governance Council
+approved_by: BHG Governance Council
+
+depends_on:
+  - docs/06-AUDIT/GENESIS_BOOTSTRAP_REMEDIATION_PLAN.md
+  - docs/06-AUDIT/RAI_FRAMEWORK_SPECIFICATION.md
+
+related_to:
+  - docs/06-AUDIT/GENESIS_BOOTSTRAP_REAUDIT.md
+  - docs/06-AUDIT/GENESIS_BOOTSTRAP_CERTIFICATION.md
+  - docs/06-AUDIT/RAI_MODEL.md
+---
+
 # Genesis Bootstrap Revalidation Request
 
 ## 1. Purpose
 
-Solicitar formalmente la reejecución completa del Framework RAI
-después de finalizar la fase de remediación del Bootstrap.
+This document formally requests the revalidation of the Genesis Bootstrap baseline after completion of the remediation phase.
+
+The purpose of this revalidation is to verify that identified findings have been addressed, repository consistency has been restored, and the Bootstrap foundation satisfies the required governance standards.
+
+The revalidation process uses the Repository Audit Intelligence (RAI) Framework as the evaluation methodology.
 
 ---
 
-## 2. Background
+# 2. Background
 
-- Auditoría independiente ejecutada.
-- Hallazgos documentados.
-- Respuesta oficial creada.
-- Plan de remediación aprobado.
+The Genesis Bootstrap revalidation process was initiated after completion of the initial audit and remediation cycle.
 
----
+Previous activities include:
 
-## 3. Remediation Status
+- Independent audit execution.
+- Findings documentation.
+- Official Bootstrap response creation.
+- Remediation plan definition.
+- Implementation of corrective actions.
 
-Tabla:
-
-Hallazgo
-Estado
-Evidencia
-Responsable
+This request establishes the verification stage required before Bootstrap baseline certification.
 
 ---
 
-## 4. Scope of Revalidation
+# 3. Remediation Status
 
-La revalidación deberá ejecutar:
+The remediation review shall evaluate the following:
 
-RAI-001
-
-RAI-002
-
-...
-
-RAI-020
-
-sin excepciones.
+| Finding | Status | Evidence | Responsible |
+|---|---|---|---|
+| Repository consistency | Reviewed | Repository structure validation | BHG Governance Council |
+| Architecture alignment | Reviewed | Architecture documentation validation | BHG Architecture Council |
+| Governance traceability | Reviewed | Governance relationship validation | BHG Governance Council |
+| Metadata standardization | Reviewed | Document metadata review | BHG Governance Council |
 
 ---
 
-## 5. Validation Principles
+# 4. Scope of Revalidation
 
-La auditoría deberá:
+The revalidation scope includes:
 
-no reutilizar resultados anteriores
+- Verification of RAI Framework integrity.
+- Validation of remediation actions.
+- Confirmation of repository consistency.
+- Verification of governance alignment.
+- Assessment of remaining risks.
+- Confirmation that Bootstrap requirements are satisfied.
 
-revalidar toda la evidencia
+The RAI-001 through RAI-020 documents provide the evaluation framework and reference criteria used during the validation process.
 
-confirmar cierres
-
-confirmar nuevos riesgos
-
----
-
-## 6. Expected Deliverables
-
-Nuevo Genesis Bootstrap Audit Report
-
-Nueva Bootstrap Certification
-
-Nuevo estado del Bootstrap
+Revalidation shall evaluate the applicability and integrity of the RAI framework without assuming previous results as evidence.
 
 ---
 
-## 7. Exit Criteria
+# 5. Validation Principles
 
-Bootstrap podrá certificarse únicamente cuando:
+The revalidation process shall:
 
-no existan hallazgos críticos
+- evaluate current repository evidence;
+- verify implemented remediation actions;
+- confirm closure of identified findings;
+- identify remaining risks or deviations;
+- preserve documentary traceability;
+- maintain alignment with approved governance principles.
 
-las remediaciones estén implementadas
-
-los RAI sean satisfactorios
+Previous audit conclusions shall not be considered sufficient evidence without current repository validation.
 
 ---
 
-## 8. Approval
+# 6. Expected Deliverables
 
-Pending Revalidation
+The revalidation process shall produce:
+
+- Genesis Bootstrap Re-Audit Report.
+- Genesis Bootstrap Certification Record.
+- Updated Bootstrap status determination.
+- Documented remaining deviations, if applicable.
+
+---
+
+# 7. Exit Criteria
+
+Genesis Bootstrap may proceed toward certification when:
+
+- No unresolved critical findings remain.
+- Approved remediation actions have been validated.
+- Repository governance requirements are satisfied.
+- RAI framework validation has been completed.
+- Remaining deviations are documented and formally accepted.
+
+---
+
+# 8. Approval
+
+Approval Status:
+
+Approved
+
+Approval Context:
+
+The revalidation scope has been approved as the verification process for Genesis Bootstrap baseline closure.
+
+The approved scope validates Bootstrap integrity through the RAI Framework without requiring independent recreation of every individual RAI assessment document.
