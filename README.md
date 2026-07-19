@@ -1,152 +1,273 @@
+---
+title: BHG Governance
+document_id: BHG-README
+version: 1.1.0
+status: Active
+classification: Public
+owner: BHG Governance Council
+approved_by: BHG Governance Council
+
+depends_on:
+  - docs/00-FOUNDATION/BHG_CONSTITUTION.md
+  - docs/00-FOUNDATION/GOVERNANCE_MODEL.md
+  - ARCHITECTURE_MAP.md
+
+related_to:
+  - CHANGELOG.md
+---
+
 # BHG Governance
 
-> **El marco normativo que gobierna todo el ecosistema de Breto's Holding Group.**
+> **The authoritative governance framework for the entire Breto's Holding Group ecosystem.**
 
 ---
 
-# Estado del repositorio
+# Repository Status
 
-**Repositorio:** BHG Governance
-
-**Versión:** 1.0.0
-
-**Estado:** Foundation
-
-**Propietario de la propiedad intelectual:** Luis F. Breto R.
-
-**Uso autorizado:** Breto's Holding Group (BHG) y las entidades que el propietario autorice.
-
----
-
-# Propósito
-
-BHG Governance constituye la autoridad normativa máxima del ecosistema Breto's Holding Group.
-
-Su misión es definir las reglas, principios, políticas, estándares y procesos que gobiernan el diseño, desarrollo, operación y evolución de todas las empresas, productos, servicios, plataformas y sistemas pertenecientes al Holding.
-
-Este repositorio no contiene implementaciones técnicas.
-
-Contiene las normas que regulan dichas implementaciones.
+| Field | Value |
+|--------|-------|
+| Repository | BHG Governance |
+| Version | 1.1.0 |
+| Status | Genesis Bootstrap Candidate |
+| Classification | Public |
+| Intellectual Property Owner | Luis F. Breto R. |
+| Authorized Use | Breto's Holding Group (BHG) and authorized entities |
 
 ---
 
-# Visión
+# Purpose
 
-Construir un modelo de gobernanza corporativa moderno, escalable y trazable que permita mantener coherencia institucional durante décadas, independientemente del crecimiento del Holding, de los equipos de trabajo o de las tecnologías utilizadas.
+BHG Governance is the highest normative authority within the Breto's Holding Group ecosystem.
 
----
+Its mission is to define the principles, governance models, policies, standards and documentary framework governing the design, development, operation and long-term evolution of every company, product, platform, service and internal system belonging to the Holding.
 
-# Misión
+This repository does not contain software implementations.
 
-Proporcionar una única fuente oficial de verdad para toda la gobernanza corporativa del Holding.
-
-Toda decisión estratégica deberá poder rastrear su fundamento dentro de este repositorio.
+It contains the governance that regulates those implementations.
 
 ---
 
-# Principios Fundamentales
+# Repository Objectives
 
-* La Constitución es la autoridad normativa suprema del Holding.
-* Ninguna política podrá contradecir la Constitución.
-* Ningún estándar podrá contradecir una política.
-* Ningún procedimiento podrá contradecir un estándar.
-* Toda norma deberá indicar explícitamente su autoridad normativa.
-* Toda modificación deberá ser trazable.
-* La gobernanza evoluciona mediante procesos formales, nunca mediante cambios arbitrarios.
+This repository exists to:
 
----
-
-# Alcance
-
-BHG Governance gobierna, entre otros:
-
-* empresas del Holding;
-* plataformas tecnológicas;
-* productos digitales;
-* servicios;
-* sistemas internos;
-* inteligencia artificial;
-* ingeniería de software;
-* documentación;
-* certificaciones;
-* procesos corporativos;
-* estructuras organizacionales.
+- establish corporate governance;
+- define normative authority;
+- preserve institutional knowledge;
+- ensure documentary traceability;
+- support deterministic interpretation by Artificial Intelligence systems;
+- provide a single source of truth for the entire BHG ecosystem.
 
 ---
 
-# Relación con otros repositorios
+# Repository Architecture
 
-BHG Governance define las reglas.
+The official architecture of this repository is defined in:
 
-Los demás repositorios las implementan.
+- ARCHITECTURE_MAP.md
 
-Ejemplos:
-
-* BHG Knowledge
-* BKOs (BHG Knowledge Operating System)
-* ZIVA Latam
-* Frecuencia Latina Operating System (FL-OS)
-* futuros productos y empresas del Holding
-
-Todos ellos deberán declarar la versión de gobernanza sobre la cual operan.
+All governance documentation shall comply with the architectural principles, dependency rules and documentary structure established therein.
 
 ---
 
-# Jerarquía documental
+# Vision
 
-La autoridad normativa sigue el siguiente orden:
+Build a modern, scalable and traceable corporate governance framework capable of preserving institutional consistency across decades, regardless of organizational growth, technological evolution or changes in leadership.
 
-1. Constitución.
-2. Modelo de Gobernanza.
-3. Políticas.
-4. Estándares.
-5. Procedimientos.
-6. Implementaciones.
-
-Ningún nivel inferior podrá modificar uno superior.
+BHG Governance shall serve as the permanent institutional memory of Breto's Holding Group.
 
 ---
 
-# Principio de separación de responsabilidades
+# Mission
 
-La gobernanza define las reglas.
+Provide a single authoritative source of truth for corporate governance across the entire BHG ecosystem.
 
-Los proyectos las implementan.
-
-Los sistemas inteligentes pueden analizarlas y emitir recomendaciones.
-
-Únicamente la autoridad competente podrá aprobar modificaciones oficiales.
+Every strategic, operational and technological decision shall be traceable to the governance documentation maintained within this repository.
 
 ---
 
-# Filosofía
+# Fundamental Principles
 
-Las organizaciones sólidas no dependen de personas.
+The governance model of Breto's Holding Group is founded upon the following principles.
 
-Dependen de principios.
-
-La tecnología cambia.
-
-Las herramientas cambian.
-
-Los equipos cambian.
-
-Los principios permanecen.
-
-Por ello, la gobernanza constituye el núcleo permanente de Breto's Holding Group.
+- The Constitution is the highest internal normative authority.
+- Policies shall never contradict the Constitution.
+- Standards shall never contradict approved policies.
+- Engineering practices shall comply with applicable standards.
+- Every governance document shall explicitly identify its normative authority.
+- Every governance change shall be fully traceable.
+- Governance evolves only through formal approval processes.
+- Repository architecture shall remain stable unless modified through governance.
+- Artificial Intelligence systems shall operate within the governance framework rather than defining it.
 
 ---
 
-# Estado del repositorio
+# Scope
 
-La estructura de carpetas y dominios de BHG Governance se considera congelada durante el desarrollo de la versión 1.0.0.
+BHG Governance establishes the normative framework governing, among others:
 
-Solo podrá modificarse una vez completada oficialmente esta primera versión.
+- Holding companies;
+- digital platforms;
+- software products;
+- corporate services;
+- internal operational systems;
+- Artificial Intelligence systems;
+- software engineering;
+- governance documentation;
+- automation frameworks;
+- certification models;
+- corporate processes;
+- organizational structures;
+- future governance repositories.
+
+This repository defines governance only.
+
+Implementation repositories consume governance but shall not redefine it.
 
 ---
 
-# Lema
+# Genesis Bootstrap
 
-> Gobernar antes de construir.
+Genesis Bootstrap is the documentary governance initiative responsible for preparing the repository to support deterministic document generation, classification and maintenance by both humans and Artificial Intelligence systems.
 
-Porque toda gran organización nace primero de principios sólidos.
+Bootstrap establishes:
+
+- documentary consistency;
+- repository architecture;
+- metadata standardization;
+- governance traceability;
+- AI-compatible document structure;
+- deterministic document routing.
+
+Successful Bootstrap Certification confirms that the repository provides a sufficiently stable governance foundation to support future automation initiatives throughout the BHG ecosystem.
+
+---
+
+# Governance Philosophy
+
+Governance precedes implementation.
+
+Architecture precedes development.
+
+Documentation precedes automation.
+
+Knowledge precedes technology.
+
+By preserving these principles, Breto's Holding Group seeks to build organizations capable of evolving sustainably for generations while maintaining institutional continuity.
+
+---
+
+# Relationship with Other Repositories
+
+BHG Governance is the normative source of authority for every repository within the Breto's Holding Group ecosystem.
+
+Implementation repositories shall consume governance documentation while preserving traceability to the governance version they adopt.
+
+Examples include:
+
+- BHG Knowledge
+- BKOs (BHG Knowledge Operating System)
+- ZIVA Latam
+- ZIVA ID
+- Frecuencia Latina Operating System (FL-OS)
+- Future BHG products, platforms and services
+
+No implementation repository may redefine normative authority established by BHG Governance.
+
+---
+
+# Documentary Hierarchy
+
+The governance framework follows the following order of authority:
+
+1. Constitution
+2. Governance Model
+3. Policies
+4. Standards
+5. Engineering Documentation
+6. Artificial Intelligence Governance
+7. Automation Documentation
+8. Audit Documentation
+9. Implementations
+
+Lower authority levels shall comply with higher authority levels.
+
+Normative authority always flows downward.
+
+Compliance always flows upward.
+
+---
+
+# Separation of Responsibilities
+
+Governance defines the rules.
+
+Engineering defines implementation.
+
+Automation executes approved processes.
+
+Artificial Intelligence assists within the governance framework.
+
+Audit validates compliance.
+
+Only the appropriate governance authority may approve official changes to repository documentation.
+
+---
+
+# Repository Entry Point
+
+New contributors, auditors and Artificial Intelligence systems should consult repository documentation in the following order:
+
+1. README.md
+2. ARCHITECTURE_MAP.md
+3. BHG_CONSTITUTION.md
+4. GOVERNANCE_MODEL.md
+5. Remaining governance documentation according to dependency hierarchy.
+
+This reading order ensures that governance authority is understood before implementation details.
+
+---
+
+# Repository Lifecycle
+
+The BHG Governance repository evolves through controlled governance processes.
+
+Every significant modification shall:
+
+- identify its governing authority;
+- preserve documentary traceability;
+- maintain architectural consistency;
+- comply with repository standards;
+- be recorded in the official CHANGELOG.
+
+Repository evolution shall prioritize long-term institutional stability over short-term convenience.
+
+---
+
+# Repository Stability
+
+The documentary architecture established during Genesis Bootstrap constitutes the baseline governance model for Breto's Holding Group.
+
+Future architectural changes shall require:
+
+- documented justification;
+- governance approval;
+- dependency analysis;
+- impact assessment;
+- documentary traceability.
+
+This approach minimizes technical debt and preserves long-term consistency.
+
+---
+
+# Final Principle
+
+Governance exists to protect institutional knowledge.
+
+Knowledge enables sustainable organizations.
+
+Architecture preserves governance.
+
+Documentation preserves architecture.
+
+Every future repository, product, platform and Artificial Intelligence system developed within Breto's Holding Group shall inherit these principles to ensure continuity, traceability and responsible evolution across generations.
