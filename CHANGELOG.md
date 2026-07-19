@@ -1,16 +1,82 @@
+---
+title: Changelog
+document_id: CHANGELOG
+version: 1.1.0
+status: Active
+classification: Internal Governance
+owner: BHG Governance Council
+approved_by: BHG Governance Council
+
+depends_on:
+  - VERSIONING_POLICY.md
+  - CHANGE_POLICY.md
+  - GOVERNANCE_MODEL.md
+
+related_to:
+  - README.md
+  - ARCHITECTURE_MAP.md
+---
+
 # Changelog
 
-Todos los cambios relevantes de este repositorio serán registrados en este documento.
+All significant changes made to the BHG Governance repository shall be recorded in this document.
 
-El formato está inspirado en "Keep a Changelog", adaptado a la gobernanza de Breto's Holding Group.
+The format is inspired by *Keep a Changelog*, adapted to the governance model of Breto's Holding Group.
 
 ---
 
-# Versionado
+# Versioning
 
-Este repositorio sigue la política corporativa definida en:
+This repository follows the corporate versioning policy defined in:
 
-* VERSIONING_POLICY.md
+- VERSIONING_POLICY.md
+
+---
+
+# [1.1.0] - 2026-07-19
+
+## Added
+
+### Genesis Bootstrap Governance
+
+- Genesis Bootstrap audit process.
+- Genesis Bootstrap Response.
+- Genesis Bootstrap Remediation Plan.
+- Genesis Bootstrap Revalidation Request.
+- Genesis Bootstrap Re-Audit workflow.
+- Genesis Bootstrap Certification workflow.
+
+### Responsible AI Governance
+
+- Responsible AI (RAI) governance framework.
+- RAI evaluation model.
+- Bootstrap validation methodology.
+
+---
+
+## Changed
+
+### Repository Architecture
+
+- Updated `ARCHITECTURE_MAP.md` to version **1.1.0**.
+- Introduced explicit architectural principles.
+- Added repository dependency model.
+- Added repository evolution model.
+- Added Genesis Bootstrap integration.
+- Added AI navigation model.
+- Improved normative authority definitions.
+- Improved repository scalability guidance.
+
+---
+
+## Fixed
+
+### Governance Documentation
+
+- Improved documentary consistency.
+- Improved metadata standardization.
+- Improved governance traceability.
+- Improved repository architectural consistency.
 
 ---
 
@@ -18,68 +84,69 @@ Este repositorio sigue la política corporativa definida en:
 
 ## Foundation
 
-* Creación del repositorio.
-* Definición de la arquitectura documental.
-* Inicio del modelo de gobernanza corporativa.
+- Repository creation.
+- Documentary architecture definition.
+- Initial corporate governance model.
 
 ## Added
 
-### Constitución
+### Constitutional Documents
 
-* BHG Constitution.
-* Governance Model.
-* Authority Model.
-* Legal Hierarchy.
-* Glossary.
+- BHG Constitution.
+- Governance Model.
+- Authority Model.
+- Legal Hierarchy.
+- Glossary.
 
-### Políticas
+### Policies
 
-* Policy Hierarchy.
-* Document Policy.
-* Decision Policy.
-* Versioning Policy.
-* Change Policy.
-* Communication Policy.
+- Policy Hierarchy.
+- Document Policy.
+- Decision Policy.
+- Versioning Policy.
+- Change Policy.
+- Communication Policy.
 
-### Fundación del repositorio
+### Repository Foundation
 
-* README.
-* LICENSE.
-* CHANGELOG.
+- README.
+- LICENSE.
+- CHANGELOG.
 
 ---
 
-# Convenciones
+# Conventions
 
-Las futuras versiones utilizarán la siguiente estructura:
+Future releases shall use the following categories whenever applicable.
 
 ## Added
 
-Nuevas capacidades.
+New capabilities.
 
 ## Changed
 
-Cambios compatibles.
+Backward-compatible changes.
 
 ## Deprecated
 
-Componentes obsoletos.
+Features scheduled for removal.
 
 ## Removed
 
-Componentes eliminados.
+Removed components.
 
 ## Fixed
 
-Correcciones.
+Corrections and bug fixes.
 
 ## Security
 
-Cambios relacionados con seguridad.
+Security-related changes.
 
 ---
 
-# Principio Final
+# Final Principle
 
-El historial del proyecto forma parte del conocimiento institucional y deberá conservarse durante toda la vida del ecosistema.
+The historical evolution of the repository constitutes part of the institutional knowledge of Breto's Holding Group.
 
+No significant governance change shall be considered complete unless it has been properly documented in this changelog.
