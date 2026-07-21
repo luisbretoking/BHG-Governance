@@ -1,11 +1,28 @@
 ---
 title: BHG Governance
 document_id: BHG-README
-version: 1.1.0
+version: 1.1.1
 status: Active
-classification: Public
+document_type: Repository Governance Entry Point
+governance_level: Foundational
 owner: BHG Governance Council
-approved_by: BHG Governance Council
+approval_authority: BHG Governance Council
+created: 2026-07-19
+last_updated: 2026-07-21
+effective_date: 2026-07-21
+classification: Public
+language: English
+repository: BHG Governance
+
+governed_by:
+  - docs/00-FOUNDATION/BHG_CONSTITUTION.md
+  - docs/00-FOUNDATION/GOVERNANCE_MODEL.md
+  - ARCHITECTURE_MAP.md
+
+governs:
+  - Repository navigation
+  - Documentation discovery
+  - Governance repository entry process
 
 depends_on:
   - docs/00-FOUNDATION/BHG_CONSTITUTION.md
