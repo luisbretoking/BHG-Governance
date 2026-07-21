@@ -1,163 +1,212 @@
+---
+title: Corporate Glossary
+document_id: BHG-FDN-002
+version: 1.1.0
+status: Approved
+document_type: Foundation Reference
+governance_level: Foundation
+owner: BHG Governance Council
+approval_authority: BHG Governance Council
+created: 2026-07-19
+last_updated: 2026-07-21
+effective_date: 2026-07-21
+classification: Internal
+language: English
+repository: BHG Governance
+
+governed_by:
+  - README.md
+  - ARCHITECTURE_MAP.md
+  - docs/00-FOUNDATION/BHG_CONSTITUTION.md
+  - docs/00-FOUNDATION/GOVERNANCE_MODEL.md
+
+governs:
+  - All BHG governance documentation
+  - All future repositories adopting BHG governance terminology
+
+depends_on:
+  - docs/00-FOUNDATION/BHG_CONSTITUTION.md
+  - docs/00-FOUNDATION/GOVERNANCE_MODEL.md
+
+related_to:
+  - docs/00-FOUNDATION/AUTHORITY_MODEL.md
+  - docs/00-FOUNDATION/AUTHORITY_MATRIX.md
+  - docs/00-FOUNDATION/BHG_FOUNDATION_BOOK.md
+---
+
 # Corporate Glossary
 
-> Glosario Oficial de Breto's Holding Group
+> Official terminology reference of Breto's Holding Group.
 
 ---
 
-# Estado
+# Purpose
 
-Versión: 1.0.0
+The Corporate Glossary establishes the official terminology used throughout the Breto's Holding Group ecosystem.
 
-Estado: Activo
+Its purpose is to ensure that every document, system, human contributor and Artificial Intelligence system interprets institutional concepts using consistent and authoritative definitions.
 
-Nivel Normativo: Fundamental
+A common language enables:
 
----
+- governance consistency;
+- documentary precision;
+- AI interoperability;
+- institutional knowledge preservation;
+- reduced ambiguity.
 
-# Propósito
-
-Este documento establece el vocabulario oficial utilizado dentro del ecosistema Breto's Holding Group.
-
-Su finalidad es garantizar que un mismo término tenga un único significado institucional.
-
-Cuando exista conflicto entre definiciones, prevalecerán las definidas en este documento.
+When conflicts exist between definitions, the definitions established in this document shall prevail.
 
 ---
 
-# Principios
+# Glossary Principles
 
-## Definición única
+## Single Definition Principle
 
-Cada concepto posee una única definición oficial.
+Every institutional concept shall have one official definition.
 
----
-
-## Consistencia
-
-Todos los documentos utilizarán la misma terminología.
+Duplicate definitions with conflicting meanings are prohibited.
 
 ---
 
-## Evolución
+## Terminology Consistency
 
-Las definiciones podrán ampliarse, pero nunca cambiar arbitrariamente su significado.
+All BHG documents shall use approved terminology defined within this glossary.
 
 ---
 
-# Términos Fundamentales
+## Controlled Evolution
+
+Definitions may evolve through formal governance processes.
+
+Changes shall:
+
+- preserve historical traceability;
+- maintain conceptual integrity;
+- avoid unnecessary duplication;
+- remain compatible with superior governance documents.
+
+---
+
+# Fundamental Terms
 
 ## Breto's Holding Group (BHG)
 
-Organización matriz responsable de gobernar, coordinar y desarrollar el ecosistema empresarial, tecnológico y documental del Holding.
+The institutional organization responsible for governing, coordinating and developing the business, technological and knowledge ecosystem of the Holding.
 
 ---
 
-## Ecosistema
+## Ecosystem
 
-Conjunto de empresas, productos, servicios, plataformas, repositorios y sistemas gobernados por BHG.
-
----
-
-## Gobernanza
-
-Sistema mediante el cual se establecen, administran y supervisan las normas, responsabilidades y procesos del Holding.
+The collection of companies, products, services, platforms, repositories and systems governed by Breto's Holding Group.
 
 ---
 
-## Constitución
+## Governance
 
-Norma suprema del ecosistema BHG.
-
-Toda autoridad normativa deriva de ella.
+The system through which rules, responsibilities, authorities and processes are established, managed and supervised within BHG.
 
 ---
 
-## Política
+## Constitution
 
-Norma que establece qué debe hacerse.
+The supreme governing document of the BHG ecosystem.
 
----
-
-## Estándar
-
-Norma que establece cómo debe hacerse.
+All governance authority derives from constitutional principles.
 
 ---
 
-## Procedimiento
+## Policy
 
-Secuencia documentada de actividades para ejecutar una política o estándar.
-
----
-
-## Implementación
-
-Materialización práctica de una norma mediante procesos, herramientas, configuraciones o software.
+A governance artifact that defines what must be done.
 
 ---
 
-## Conocimiento
+## Standard
 
-Información estructurada, contextualizada y trazable que genera valor para el Holding.
+A governance artifact that defines how something must be done.
+
+---
+
+## Procedure
+
+A documented sequence of activities used to execute a policy or standard.
+
+---
+
+## Implementation
+
+The practical realization of governance requirements through processes, tools, configurations or software.
+
+---
+
+## Knowledge
+
+Structured, contextualized and traceable information that generates institutional value.
 
 ---
 
 ## Idea
 
-Hipótesis, propuesta u oportunidad registrada para su evaluación.
+A documented hypothesis, proposal or opportunity requiring evaluation.
 
 ---
 
-## Investigación
+## Research
 
-Proceso sistemático destinado a validar o refutar una idea mediante evidencia.
-
----
-
-## Decisión
-
-Resolución formal tomada por una autoridad competente.
+A systematic process used to validate or invalidate ideas through evidence.
 
 ---
 
-## Evidencia
+## Decision
 
-Información verificable que respalda una afirmación, decisión o cumplimiento.
-
----
-
-## Trazabilidad
-
-Capacidad de reconstruir el origen, evolución y estado de cualquier activo documental o decisión.
+A formal resolution made by an authorized governance authority.
 
 ---
 
-## Activo
+## Evidence
 
-Elemento que genera valor para el Holding.
-
-Puede ser físico, digital, documental, financiero o intelectual.
+Verifiable information supporting an assertion, decision or compliance evaluation.
 
 ---
 
-## Dominio
+## Traceability
 
-Área de responsabilidad dentro del ecosistema BHG.
-
-Ejemplos:
-
-* Gobernanza
-* Ingeniería
-* IA
-* Seguridad
-* Certificación
-* Conocimiento
+The capability to reconstruct the origin, evolution and current state of any institutional asset, document or decision.
 
 ---
 
-## Repositorio
+## Asset
 
-Unidad documental administrada bajo las normas de BHG Governance.
+Any element generating value for BHG.
+
+Assets may include:
+
+- physical assets;
+- digital assets;
+- financial assets;
+- intellectual assets;
+- documentary assets.
+
+---
+
+## Domain
+
+A defined area of responsibility within the BHG ecosystem.
+
+Examples:
+
+- Governance
+- Engineering
+- Artificial Intelligence
+- Security
+- Certification
+- Knowledge Management
+
+---
+
+## Repository
+
+A managed documentation or implementation environment operating under defined BHG governance rules.
 
 ---
 
@@ -165,68 +214,80 @@ Unidad documental administrada bajo las normas de BHG Governance.
 
 BHG Knowledge Operating System.
 
-Sistema operativo corporativo encargado de gestionar, relacionar y facilitar el acceso gobernado al conocimiento institucional.
+The institutional knowledge system responsible for organizing, relating and providing governed access to organizational knowledge.
+
+BKOs provide knowledge support.
+
+BKOs do not exercise governance authority.
 
 ---
 
-## IA
+## Artificial Intelligence (AI)
 
-Sistema de Inteligencia Artificial autorizado para asistir en tareas definidas por la gobernanza.
+An authorized computational system designed to assist with specific activities defined by governance.
 
-Las IA no poseen autoridad normativa.
-
----
-
-## Autoridad
-
-Capacidad formalmente delegada para tomar decisiones dentro de un ámbito específico.
+AI systems do not possess normative authority.
 
 ---
 
-## Consejo
+## Authority
 
-Órgano permanente de gobernanza responsable de supervisar un dominio del Holding.
-
----
-
-## Certificación
-
-Proceso mediante el cual se verifica el cumplimiento de estándares corporativos.
+The formally delegated capability to make decisions within a defined governance scope.
 
 ---
 
-## Auditoría
+## Council
 
-Evaluación independiente destinada a comprobar el cumplimiento de normas, políticas o estándares.
-
----
-
-## Madurez
-
-Nivel de evolución alcanzado por un proceso, sistema, producto o empresa respecto a los estándares definidos por BHG.
+A permanent governance body responsible for supervising a specific organizational domain.
 
 ---
 
-# Convenciones
+## Certification
 
-Cuando un término aparezca con mayúscula inicial (por ejemplo, "Constitución", "Política" o "Consejo"), se entenderá que hace referencia a su definición oficial dentro del ecosistema BHG.
-
----
-
-# Evolución del glosario
-
-Toda incorporación o modificación de términos deberá:
-
-* justificar su necesidad;
-* evitar duplicidades;
-* mantener coherencia con la Constitución;
-* actualizar las referencias cruzadas cuando corresponda.
+A formal process used to verify compliance with defined standards, policies or governance requirements.
 
 ---
 
-# Principio Final
+## Audit
 
-Un lenguaje común permite construir un conocimiento común.
+An independent evaluation performed to verify compliance with governance requirements.
 
-La precisión del lenguaje fortalece la gobernanza, mejora la colaboración y reduce la ambigüedad en todo el ecosistema Breto's Holding Group.
+---
 
+## Maturity
+
+The level of development achieved by a process, system, product or organization according to defined BHG evaluation criteria.
+
+---
+
+# Terminology Convention
+
+When institutional terms appear with capitalization, such as:
+
+- Constitution;
+- Policy;
+- Standard;
+- Council;
+- Authority;
+
+they refer to their official definitions established within this glossary.
+
+---
+
+# Glossary Evolution
+
+Any modification, addition or removal of glossary terms shall:
+
+- include documented justification;
+- avoid conceptual duplication;
+- preserve consistency with the Constitution;
+- update affected references;
+- maintain version history.
+
+---
+
+# Final Principle
+
+A common language creates common understanding.
+
+Precise terminology strengthens governance, improves collaboration and reduces ambiguity throughout the Breto's Holding Group ecosystem.
