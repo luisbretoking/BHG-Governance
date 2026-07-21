@@ -1,92 +1,133 @@
 ---
 title: Governance Proposal Standard
-version: 1.0.0
+document_id: BHG-GPS-001
+version: 1.1.0
 status: Approved
-document-type: Standard
-governance-level: Foundation
+document_type: Standard
+governance_level: Foundation
 owner: BHG Governance Council
-approval-authority: BHG Governance Council
-language: en
+approval_authority: BHG Governance Council
+created: 2026-07-21
+last_updated: 2026-07-21
+effective_date: 2026-07-21
 classification: Internal
-applies-to:
-  - Entire BHG Ecosystem
-governed-by:
-  - BHG_CONSTITUTION.md
-  - AUTHORITY_MODEL.md
-  - AUTHORITY_MATRIX.md
-  - GOVERNANCE_PIPELINE.md
-related-documents:
-  - GOVERNANCE_CONFLICT_RESOLUTION.md
-  - CHANGE_POLICY.md
----
+language: en
+repository: BHG Governance
 
+governed_by:
+  - docs/00-FOUNDATION/BHG_CONSTITUTION.md
+  - docs/00-FOUNDATION/AUTHORITY_MODEL.md
+  - docs/00-FOUNDATION/AUTHORITY_MATRIX.md
+  - docs/00-FOUNDATION/GOVERNANCE_PIPELINE.md
+
+governs:
+  - Governance Proposal documents
+  - Governance change submissions
+  - Governance evaluation packages
+
+depends_on:
+  - docs/00-FOUNDATION/BHG_CONSTITUTION.md
+  - docs/00-FOUNDATION/AUTHORITY_MODEL.md
+  - docs/00-FOUNDATION/AUTHORITY_MATRIX.md
+  - docs/00-FOUNDATION/GOVERNANCE_PIPELINE.md
+
+related_to:
+  - docs/00-FOUNDATION/GOVERNANCE_CONFLICT_RESOLUTION.md
+  - docs/00-FOUNDATION/CHANGE_POLICY.md
+---
 # Governance Proposal Standard
 
-## Purpose
+> Official standard defining the mandatory structure for governance proposals inside Breto's Holding Group.
 
-This standard defines the mandatory structure for every governance proposal submitted within the BHG ecosystem.
+---
 
-Its objective is to ensure consistency, traceability, evidence-based evaluation and machine-readable governance.
+# Purpose
 
-Every governance proposal shall follow this standard before entering the Governance Pipeline.
+This standard defines the mandatory structure required for every governance proposal submitted within the BHG ecosystem.
+
+Its objective is to guarantee consistency, traceability, evidence-based evaluation and compatibility with human and Artificial Intelligence governance systems.
+
+Every governance proposal shall comply with this standard before entering the Governance Pipeline.
+
+---
+
+# Scope
+
+This standard applies to every governance proposal created within:
+
+- BHG Governance;
+- Holding companies;
+- Subholdings;
+- Subsidiaries;
+- Governance committees;
+- Authorized governance participants.
+
+No governance proposal may advance through the Governance Pipeline without satisfying this standard.
 
 ---
 
 # Core Principles
 
-## Principle 1
+## Principle 1 — Documentation Before Decision
 
-Every governance proposal shall be documented.
-
----
-
-## Principle 2
-
-Every proposal shall be uniquely identifiable.
+Every governance proposal shall exist as an official documented artifact before evaluation.
 
 ---
 
-## Principle 3
+## Principle 2 — Unique Identification
 
-Every proposal shall include sufficient evidence.
-
----
-
-## Principle 4
-
-Every proposal shall preserve complete traceability.
+Every proposal shall have a unique identifier allowing complete lifecycle traceability.
 
 ---
 
-## Principle 5
+## Principle 3 — Evidence-Based Evaluation
 
-Every proposal shall be reviewable by both humans and authorized AI systems.
+Every proposal shall include sufficient evidence supporting the proposed change.
+
+---
+
+## Principle 4 — Complete Traceability
+
+Every proposal shall preserve:
+
+- origin;
+- review history;
+- approval authority;
+- implementation status;
+- audit references.
+
+---
+
+## Principle 5 — Human Review Authority
+
+Artificial Intelligence systems may support proposal analysis but human governance bodies retain exclusive approval authority.
 
 ---
 
 # Mandatory Proposal Structure
 
-Every proposal shall contain the following sections.
+Every Governance Proposal shall contain the following sections.
 
-## 1. Proposal Identifier
+---
 
-Unique identifier.
+# 1. Proposal Identifier
+
+Unique identifier assigned to the proposal.
 
 Example:
-
 GP-2026-0001
 
 ---
 
-## 2. Proposal Title
+# 2. Proposal Title
 
-Clear and concise title.
+A clear and concise description of the proposed governance change.
 
 ---
 
-## 3. Proposal Type
+# 3. Proposal Type
 
-Possible values:
+The proposal shall classify itself using one of the following types:
 
 - Constitution
 - Governance Model
@@ -103,9 +144,9 @@ Possible values:
 
 ---
 
-## 4. Proposal Status
+# 4. Proposal Status
 
-Possible values:
+Allowed lifecycle states:
 
 - Draft
 - Under Review
@@ -117,11 +158,11 @@ Possible values:
 
 ---
 
-## 5. Proposer
+# 5. Proposer
 
-Governance role submitting the proposal.
+The governance role submitting the proposal.
 
-Never personal authority.
+Authority shall always reference a governance role and never an individual identity.
 
 Examples:
 
@@ -133,169 +174,234 @@ Examples:
 
 ---
 
-## 6. Business Justification
+# 6. Business Justification
 
-Why is this proposal necessary?
+Defines why the proposal is required.
 
----
+The justification shall explain:
 
-## 7. Current Situation
-
-Describe the existing problem.
-
----
-
-## 8. Proposed Change
-
-Describe the proposed governance modification.
+- organizational need;
+- expected value;
+- strategic relevance.
 
 ---
 
-## 9. Expected Benefits
+# 7. Current Situation
 
-Document expected improvements.
+Describes the existing condition requiring change.
+
+The section should include:
+
+- current limitations;
+- identified problems;
+- affected areas.
+
+---
+
+# 8. Proposed Change
+
+Defines the requested governance modification.
+
+The proposal shall clearly describe:
+
+- what changes;
+- what remains unchanged;
+- affected documents or systems.
+
+---
+
+# 9. Expected Benefits
+
+Documents expected improvements.
 
 Examples:
 
-- Better governance
-
-- Reduced complexity
-
-- Increased traceability
-
-- Better scalability
-
-- Better compliance
+- improved governance;
+- reduced complexity;
+- increased traceability;
+- improved scalability;
+- stronger compliance.
 
 ---
 
-## 10. Impact Assessment
+# 10. Impact Assessment
 
-Expected impact on:
+Every proposal shall evaluate impact on:
 
-- Governance
-
-- Engineering
-
-- Operations
-
-- Documentation
-
-- AI Systems
-
-- Companies
-
-- Subholdings
-
-- Repositories
+- Governance;
+- Engineering;
+- Operations;
+- Documentation;
+- AI Systems;
+- Companies;
+- Subholdings;
+- Repositories.
 
 ---
 
-## 11. Risk Assessment
+# 11. Risk Assessment
 
-Potential risks.
+Potential risks shall be documented.
 
-Include mitigation strategies.
+Each identified risk should include:
 
----
-
-## 12. AI Assessment
-
-Optional.
-
-Authorized AI systems may provide:
-
-- consistency analysis
-
-- dependency analysis
-
-- conflict detection
-
-- implementation suggestions
-
-AI recommendations are advisory only.
+- description;
+- probability;
+- impact;
+- mitigation strategy.
 
 ---
 
-## 13. Human Review
+# 12. AI Assessment
 
-Space reserved for governance reviewers.
+Authorized Artificial Intelligence systems may provide advisory analysis.
+
+Possible assessments include:
+
+- consistency analysis;
+- dependency analysis;
+- conflict detection;
+- historical comparison;
+- implementation recommendations.
+
+AI assessment does not represent governance approval.
 
 ---
 
-## 14. Approval Decision
+# 13. Human Review
 
-Possible values:
+Reserved section for authorized governance reviewers.
+
+Reviewers may:
+
+- request modifications;
+- approve progression;
+- reject proposals;
+- request additional evidence.
+
+---
+
+# 14. Approval Decision
+
+Only authorized governance bodies may issue final decisions.
+
+Allowed values:
 
 - Approved
-
 - Approved with Changes
-
 - Rejected
-
 - Deferred
 
+Every decision shall include:
+
+- approving authority;
+- date;
+- version reference.
+
 ---
 
-## 15. Implementation Plan
+# 15. Implementation Plan
 
-Describe how the approved proposal will be implemented.
+Defines how an approved proposal will be executed.
+
+The implementation plan should include:
+
+- responsible owner;
+- affected repositories;
+- required changes;
+- expected completion criteria.
 
 ---
 
-## 16. Audit Information
+# 16. Audit Information
 
-Record:
+Every implemented proposal shall preserve:
 
-- approval authority
-
-- approval date
-
-- implemented version
-
-- repository
-
-- audit reference
+- approval authority;
+- approval date;
+- implemented version;
+- repository reference;
+- audit reference.
 
 ---
 
 # Proposal Lifecycle
 
-Every proposal shall follow the Governance Pipeline.
+Every Governance Proposal shall follow the official Governance Pipeline.
 
-No governance proposal may bypass the pipeline.
+The lifecycle is:
+Proposal Creation
+
+↓
+
+Validation
+
+↓
+
+Review
+
+↓
+
+Analysis
+
+↓
+
+Approval
+
+↓
+
+Implementation
+
+↓
+
+Verification
+
+↓
+
+Audit
+
+↓
+
+Closure
+
+No proposal may bypass the established lifecycle unless an approved emergency governance procedure applies.
 
 ---
 
-# AI Participation
+# Artificial Intelligence Participation
 
 Authorized AI systems may:
 
-- prepare drafts
+- prepare proposal drafts;
+- validate completeness;
+- analyze dependencies;
+- detect conflicts;
+- estimate impacts;
+- recommend improvements.
 
-- verify completeness
+AI systems shall never:
 
-- identify conflicts
-
-- estimate impacts
-
-- suggest improvements
-
-AI systems shall never approve proposals.
+- approve proposals;
+- reject proposals;
+- modify official governance artifacts;
+- bypass governance authority.
 
 ---
 
-# Governance as Code
+# Governance as Code Compatibility
 
-Governance proposals shall be structured to support automated validation.
+Governance proposals shall be structured for automated validation.
 
-Mandatory fields shall be machine-readable.
+Mandatory metadata and lifecycle fields shall be machine-readable.
 
-Missing mandatory information shall automatically invalidate the proposal before governance review.
+Incomplete proposals shall fail automated validation before governance review.
+
+Automation supports governance.
+
+Human authority governs governance.
 
 ---
 
 # Compliance
 
-Governance proposals that do not comply with this standard shall be returned to the proposer before entering the Governance Pipeline.
-
+Any governance proposal that does not comply with this standard shall be returned for correction before entering the Governance Pipeline.
