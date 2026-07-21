@@ -1,26 +1,79 @@
-# BHG Governance — Architecture Map
+---
+title: BHG Governance Architecture Map
+document_id: BHG-AM-001
+version: 1.1.1
+status: Active
+document_type: Architecture Specification
+governance_level: Foundational
+owner: BHG Architecture Office
+approval_authority: BHG Governance Council
+created: 2026-07-19
+last_updated: 2026-07-21
+effective_date: 2026-07-21
+classification: Internal
+language: English
+repository: BHG Governance
 
-> **Official architectural specification of the BHG Governance repository.**
+governed_by:
+  - README.md
+  - docs/00-FOUNDATION/BHG_CONSTITUTION.md
+
+governs:
+  - Repository architecture
+  - Documentation domains
+  - Document placement rules
+  - Repository navigation model
+  - Genesis Bootstrap routing model
+
+depends_on:
+  - README.md
+  - docs/00-FOUNDATION/BHG_CONSTITUTION.md
+
+related_to:
+  - docs/00-FOUNDATION/GOVERNANCE_MODEL.md
+  - docs/00-FOUNDATION/AUTHORITY_MODEL.md
+  - docs/06-AUDIT/*
+------
+title: BHG Governance Architecture Map
+document_id: BHG-AM-001
+version: 1.1.1
+status: Active
+document_type: Architecture Specification
+governance_level: Foundational
+owner: BHG Architecture Office
+approval_authority: BHG Governance Council
+created: 2026-07-19
+last_updated: 2026-07-21
+effective_date: 2026-07-21
+classification: Internal
+language: English
+repository: BHG Governance
+
+governed_by:
+  - README.md
+  - docs/00-FOUNDATION/BHG_CONSTITUTION.md
+
+governs:
+  - Repository architecture
+  - Documentation domains
+  - Document placement rules
+  - Repository navigation model
+  - Genesis Bootstrap routing model
+
+depends_on:
+  - README.md
+  - docs/00-FOUNDATION/BHG_CONSTITUTION.md
+
+related_to:
+  - docs/00-FOUNDATION/GOVERNANCE_MODEL.md
+  - docs/00-FOUNDATION/AUTHORITY_MODEL.md
+  - docs/06-AUDIT/*
 
 ---
 
-# Document Metadata
+# BHG Governance — Architecture Map
 
-| Field | Value |
-|--------|-------|
-| Document ID | BHG-AM-001 |
-| Title | Architecture Map |
-| Version | 1.1.0 |
-| Status | Active |
-| Classification | Internal |
-| Language | English |
-| Owner | Breto's Holding Group |
-| Repository | BHG Governance |
-| Author | BHG Architecture Office |
-| Approved By | Governance Authority |
-| Created | 2026-07-19 |
-| Last Updated | 2026-07-19 |
-| Next Review | 2027-07-19 |
+> **Official architectural specification of the BHG Governance repository.**
 
 ---
 
