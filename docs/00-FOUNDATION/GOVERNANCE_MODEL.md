@@ -1,187 +1,344 @@
+---
+title: Governance Model
+document_id: BHG-GOV-001
+version: 1.1.0
+status: Approved
+document_type: Governance Model
+governance_level: Foundation
+owner: BHG Governance Council
+approval_authority: BHG Governance Council
+created: 2026-07-19
+last_updated: 2026-07-21
+effective_date: 2026-07-21
+classification: Internal
+language: English
+repository: BHG Governance
+
+governed_by:
+  - README.md
+  - ARCHITECTURE_MAP.md
+  - docs/00-FOUNDATION/BHG_CONSTITUTION.md
+  - docs/00-FOUNDATION/AUTHORITY_MODEL.md
+  - docs/00-FOUNDATION/AUTHORITY_MATRIX.md
+
+governs:
+  - docs/01-POLICIES/*
+  - docs/02-STANDARDS/*
+  - docs/03-ENGINEERING/*
+  - docs/04-AI/*
+  - docs/05-AUTOMATION/*
+  - docs/06-AUDIT/*
+  - docs/07-GOVERNANCE/*
+
+depends_on:
+  - docs/00-FOUNDATION/BHG_CONSTITUTION.md
+  - docs/00-FOUNDATION/AUTHORITY_MODEL.md
+  - docs/00-FOUNDATION/AUTHORITY_MATRIX.md
+
+related_to:
+  - docs/00-FOUNDATION/BHG_FOUNDATION_BOOK.md
+  - docs/00-FOUNDATION/GLOSSARY.md
+---
+
 # Governance Model
 
-> Modelo Oficial de Gobernanza de Breto's Holding Group
+> Official Governance Framework of Breto's Holding Group.
 
 ---
 
-# Estado
+# Purpose
 
-Versión: 1.0.0
+The Governance Model defines how Breto's Holding Group establishes, manages and evolves corporate governance across its entire ecosystem.
 
-Estado: Activo
+Its purpose is to transform constitutional principles into an operational governance framework capable of supporting long-term institutional growth.
 
-Nivel Normativo: Constitución Corporativa (C0)
+This document establishes:
 
----
+- governance components;
+- decision structures;
+- responsibilities;
+- authority relationships;
+- governance interactions;
+- evolution mechanisms.
 
-# Propósito
+The Governance Model does not replace the Constitution.
 
-Este documento define la estructura mediante la cual Breto's Holding Group ejerce su gobierno corporativo.
+The Constitution establishes supreme principles.
 
-Establece los principios, niveles de autoridad, responsabilidades, mecanismos de decisión y relaciones entre todos los componentes del ecosistema.
-
-Su finalidad es garantizar que el crecimiento del Holding sea coherente, auditable, escalable y sostenible durante décadas.
-
----
-
-# Principios Fundamentales
-
-La gobernanza de BHG se basa en los siguientes principios:
-
-* Legalidad.
-* Transparencia.
-* Trazabilidad.
-* Responsabilidad.
-* Delegación controlada.
-* Mejora continua.
-* Seguridad.
-* Evidencia sobre opinión.
-* Documentación como activo estratégico.
-* Decisiones respaldadas por conocimiento.
+The Governance Model defines how those principles are organized and applied.
 
 ---
 
-# Componentes del Gobierno Corporativo
+# Normative Authority
 
-El modelo de gobernanza está compuesto por cinco grandes pilares:
+## Governed By
 
-## 1. Gobierno Humano
+The Governance Model derives authority from:
 
-Responsable de las decisiones institucionales.
+- BHG Constitution;
+- Authority Model;
+- Authority Matrix;
+- Repository Architecture.
 
-Está conformado por:
+## Governs
 
-* Fundador.
-* Dirección General.
-* Consejos.
-* Comités.
-* Responsables de área.
+This document provides governance guidance for:
 
----
-
-## 2. Gobierno Documental
-
-Representado por BKOs.
-
-Responsable de:
-
-* preservar el conocimiento;
-* mantener la trazabilidad;
-* relacionar documentos;
-* conservar el historial institucional;
-* suministrar evidencia para la toma de decisiones.
-
-BKOs no toma decisiones.
-
-Proporciona contexto y conocimiento.
+- corporate policies;
+- organizational standards;
+- engineering governance;
+- AI governance;
+- automation governance;
+- audit processes;
+- future governance domains.
 
 ---
 
-## 3. Gobierno Asistido por IA
+# Governance Principles
 
-Representado por BEiA.
+The governance system of Breto's Holding Group is based on the following principles:
 
-BEiA actúa como asistente ejecutivo.
+## Governance Before Execution
 
-Puede:
-
-* analizar información;
-* detectar inconsistencias;
-* proponer mejoras;
-* simular impactos;
-* emitir recomendaciones.
-
-BEiA no sustituye la autoridad humana.
+Every significant activity shall be supported by an established governance framework before implementation.
 
 ---
 
-## 4. Gobierno Normativo
+## Evidence Before Opinion
 
-Constituido por:
-
-* Constitución.
-* Políticas.
-* Estándares.
-* Procedimientos.
-* Resoluciones.
-
-Toda norma inferior deberá respetar las superiores.
+Governance decisions shall prioritize documented evidence over assumptions or personal preference.
 
 ---
 
-## 5. Gobierno de Cumplimiento
+## Traceability By Design
 
-Será ejercido por el futuro Corporate Compliance Engine (CCE).
+Every relevant governance action shall maintain:
 
-Su función será verificar automáticamente el cumplimiento normativo del ecosistema y generar informes de conformidad y riesgos.
-
----
-
-# Modelo de Toma de Decisiones
-
-Las decisiones seguirán el siguiente flujo:
-
-1. Identificación del problema.
-2. Recolección de evidencia.
-3. Consulta a BKOs.
-4. Análisis asistido por BEiA.
-5. Evaluación por la autoridad competente.
-6. Decisión.
-7. Implementación.
-8. Registro.
-9. Auditoría.
+- origin;
+- responsible authority;
+- decision history;
+- implementation ownership;
+- audit evidence.
 
 ---
 
-# Principio de Separación de Funciones
+## Separation of Responsibilities
 
-Ningún componente del ecosistema podrá concentrar simultáneamente las funciones de:
+Governance functions shall remain separated.
 
-* crear;
-* aprobar;
-* ejecutar;
-* auditar.
+No component should simultaneously:
 
-Salvo las excepciones previstas expresamente por la Constitución para el Fundador.
-
----
-
-# Evolución de la Gobernanza
-
-La gobernanza de BHG deberá evolucionar mediante cambios controlados, respetando:
-
-* la Constitución;
-* el Modelo de Autoridad;
-* la Jerarquía Legal;
-* las políticas de versionado y gestión del cambio.
+- define rules;
+- approve rules;
+- execute rules;
+- audit compliance.
 
 ---
 
-# Empresas del Holding
+## Documentation As Institutional Memory
 
-Toda empresa perteneciente al Holding deberá adoptar este modelo de gobernanza como marco superior.
+Documentation represents a strategic organizational asset.
 
-Podrá desarrollar normas internas siempre que sean compatibles con la gobernanza de BHG.
-
----
-
-# Empresas Adquiridas
-
-Las empresas incorporadas al Holding iniciarán un proceso formal de transición hacia este modelo de gobernanza.
-
-La duración y alcance de dicha transición dependerán del análisis realizado por la autoridad competente y del plan de integración aprobado.
+Knowledge shall be preserved, versioned and made available for future generations.
 
 ---
 
-# Principio Final
+# Governance Components
 
-La gobernanza existe para preservar la coherencia del ecosistema.
+The BHG governance system consists of five primary components.
 
-Las personas cambian.
+---
 
-Las empresas evolucionan.
+# 1. Human Governance
 
-La tecnología avanza.
+Human governance represents the official decision authority of the ecosystem.
 
-La gobernanza garantiza que Breto's Holding Group conserve su identidad, sus principios y su capacidad de crecer de forma ordenada.
+It includes:
 
+- Founder;
+- Board;
+- Governance Councils;
+- Executive leadership;
+- Managers;
+- Responsible owners.
+
+Human governance maintains final authority over institutional decisions.
+
+---
+
+# 2. Documentary Governance
+
+Documentary governance preserves institutional knowledge through controlled documentation.
+
+Its responsibilities include:
+
+- maintaining governance records;
+- preserving historical context;
+- establishing traceability;
+- supporting decision-making.
+
+Documentary systems provide knowledge.
+
+They do not exercise authority.
+
+---
+
+# 3. Artificial Intelligence Assisted Governance
+
+Artificial Intelligence systems support governance through analysis and automation.
+
+Authorized AI systems may:
+
+- analyze information;
+- detect inconsistencies;
+- identify risks;
+- generate reports;
+- simulate scenarios;
+- recommend improvements.
+
+AI systems shall never:
+
+- approve governance;
+- override human decisions;
+- modify official governance artifacts independently;
+- replace accountable authorities.
+
+---
+
+# 4. Normative Governance
+
+Normative governance establishes the hierarchy of organizational rules.
+
+The hierarchy is:
+
+1. Constitution
+2. Governance Models
+3. Authority Models
+4. Policies
+5. Standards
+6. Procedures
+7. Implementations
+
+Lower levels shall always comply with higher levels.
+
+---
+
+# 5. Compliance Governance
+
+Compliance governance verifies whether organizational activities remain aligned with approved governance.
+
+Future compliance systems may include:
+
+- automated validation;
+- certification engines;
+- audit frameworks;
+- risk monitoring systems.
+
+Compliance supports governance.
+
+Compliance does not replace governance authority.
+
+---
+
+# Decision Framework
+
+Governance decisions shall follow this lifecycle:
+
+1. Identify the issue.
+2. Collect evidence.
+3. Analyze available knowledge.
+4. Request AI-assisted analysis when appropriate.
+5. Evaluate by responsible authority.
+6. Approve or reject decision.
+7. Implement approved action.
+8. Register decision history.
+9. Audit compliance.
+
+---
+
+# Governance Evolution
+
+Governance shall evolve through controlled improvement.
+
+Any governance modification shall:
+
+- preserve historical records;
+- identify responsible authority;
+- document justification;
+- evaluate impact;
+- maintain traceability;
+- comply with constitutional principles.
+
+---
+
+# Relationship With Companies
+
+Every company belonging to Breto's Holding Group shall adopt this governance framework as its superior governance reference.
+
+Companies may establish internal governance structures provided that they:
+
+- comply with BHG governance;
+- preserve traceability;
+- do not contradict superior authority.
+
+---
+
+# Relationship With Acquired Companies
+
+Organizations incorporated into BHG through acquisition shall undergo governance integration.
+
+The integration process shall evaluate:
+
+- existing governance maturity;
+- compatibility;
+- required adaptations;
+- transition timeline.
+
+---
+
+# Governance And Artificial Intelligence
+
+Artificial Intelligence is considered an organizational capability.
+
+It strengthens governance through:
+
+- analysis;
+- automation;
+- knowledge management;
+- compliance verification.
+
+However:
+
+Human governance remains the final authority.
+
+AI assists governance.
+
+AI does not govern.
+
+---
+
+# Governance Stability
+
+The Governance Model shall evolve only through formal governance processes.
+
+Changes require:
+
+- documented proposal;
+- authority review;
+- impact assessment;
+- version update;
+- historical registration.
+
+---
+
+# Final Principle
+
+Governance exists to preserve institutional coherence.
+
+Organizations change.
+
+People change.
+
+Technology changes.
+
+Governance preserves identity, principles and long-term continuity.
