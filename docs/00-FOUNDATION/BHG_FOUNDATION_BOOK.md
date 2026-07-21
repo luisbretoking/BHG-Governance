@@ -1,12 +1,12 @@
 ---
 title: Breto's Holding Group Foundation Book
 document_id: BHG-FDN-001
-version: 1.1.0
+version: 1.1.1
 status: Approved
 document_type: Institutional Foundation Book
 governance_level: Foundational
 owner: Breto's Holding Group
-approval_authority: Governance Authority
+approval_authority: BHG Governance Council
 created: 2026-07-19
 last_updated: 2026-07-21
 effective_date: 2026-07-21
@@ -15,11 +15,14 @@ language: English
 repository: BHG Governance
 
 governed_by:
-  - README.md
-  - ARCHITECTURE_MAP.md
   - docs/00-FOUNDATION/BHG_CONSTITUTION.md
+  - ARCHITECTURE_MAP.md
+  - README.md
 
-governs: null
+governs:
+  - Institutional philosophy interpretation
+  - Foundational principles interpretation
+  - Long-term organizational purpose
 
 depends_on:
   - docs/00-FOUNDATION/BHG_CONSTITUTION.md
@@ -38,26 +41,6 @@ related_to:
 # Breto's Holding Group Foundation Book
 
 > **The permanent doctrinal compass of Breto's Holding Group.**
-
----
-
-# Document Metadata
-
-| Field | Value |
-|--------|-------|
-| Document ID | BHG-FDN-001 |
-| Title | Breto's Holding Group Foundation Book |
-| Version | 1.1.0 |
-| Status | Approved |
-| Classification | Strategic |
-| Language | English |
-| Owner | Breto's Holding Group |
-| Repository | BHG Governance |
-| Author | BHG Governance Office |
-| Approved By | Governance Authority |
-| Created | 2026-07-19 |
-| Last Updated | 2026-07-21 |
-| Effective Date | 2026-07-21 |
 
 ---
 
