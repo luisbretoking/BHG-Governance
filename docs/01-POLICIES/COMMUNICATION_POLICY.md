@@ -33,7 +33,9 @@ related_to:
   - DOCUMENT_POLICY.md
   - DECISION_POLICY.md
   - AI_GOVERNANCE_POLICY.md
----Communication Policy
+---
+
+Communication Policy
 Purpose
 
 This policy establishes the mandatory rules governing communication throughout the Breto's Holding Group ecosystem.
