@@ -1,220 +1,332 @@
 ---
 title: Language Policy
+
 document_id: LANGUAGE_POLICY
-version: 1.1.0
+
+version: 1.2.0
+
 status: Approved
+
 document_type: Policy
-governance_level: Enterprise
+
+governance_level: P0
+
 owner: BHG Governance Council
+
 approval_authority: BHG Governance Council
+
 created: 2026-07-21
-last_updated: 2026-07-21
-effective_date: 2026-07-21
+
+last_updated: 2026-07-22
+
+effective_date: 2026-07-22
+
 classification: Internal
+
 language: en
-repository: BHG-GOVERNANCE
+
+repository: BHG-Governance
 
 governed_by:
   - BHG_CONSTITUTION.md
   - GOVERNANCE_MODEL.md
+  - LEGAL_HIERARCHY.md
+  - POLICY_HIERARCHY.md
   - DOCUMENT_POLICY.md
-  - DOCUMENT_METADATA_STANDARD.md
-  - DOCUMENT_IDENTIFIER_STANDARD.md
-  - DOCUMENT_CLASSIFICATION_STANDARD.md
-  - WRITING_STANDARD.md
 
 governs:
-  - DOCUMENT_RELATIONSHIP_STANDARD.md
-  - GOVERNANCE_REGISTRY_MODEL.md
-  - DOCUMENT_HISTORY_MODEL.md
-  - DOCUMENT_TEMPLATE_ENGINE_STANDARD.md
-  - DOCUMENT_VALIDATION_STANDARD.md
   - All Governance Documents
 
 depends_on:
   - DOCUMENT_METADATA_STANDARD.md
   - DOCUMENT_IDENTIFIER_STANDARD.md
   - DOCUMENT_CLASSIFICATION_STANDARD.md
+  - WRITING_STANDARD.md
 
 related_to:
   - DOCUMENT_STANDARD.md
   - DOCUMENT_SCHEMA_STANDARD.md
   - TRACEABILITY_STANDARD.md
+  - VERSIONING_POLICY.md
 ---
 
 # Language Policy
 
-> Defines the official language governance model for the Breto's Holding Group ecosystem.
+> Official language governance policy of Breto's Holding Group.
 
 ---
 
 # Purpose
 
-This policy establishes the corporate language governance model for every official document, repository, governance artifact and automation process within the Breto's Holding Group ecosystem.
+This policy establishes the official language governance framework for the Breto's Holding Group ecosystem.
 
-Its objective is to ensure consistent terminology, international interoperability, long-term maintainability and deterministic interpretation by both humans and Artificial Intelligence systems.
+Its purpose is to ensure that institutional knowledge, governance documents, repositories and automated systems maintain consistent interpretation throughout their lifecycle.
 
-Language supports governance.
+Language is considered a governance component.
 
-Language shall never introduce governance ambiguity.
+Ambiguous language may create operational, documentary and governance risks.
+
+Therefore, all official documentation and governance artifacts shall follow the rules established in this policy.
+
+---
+
+# Scope
+
+This policy applies to:
+
+- governance documents;
+- policies;
+- standards;
+- procedures;
+- repositories;
+- metadata structures;
+- automation processes;
+- Artificial Intelligence systems;
+- knowledge management systems;
+- all future BHG companies and organizational units.
+
+Unless an approved exception exists, all official BHG documentation shall comply with this policy.
 
 ---
 
 # Objectives
 
-This policy shall:
+This policy establishes the following objectives:
 
-- establish official documentation languages;
-- define the concept of canonical language;
-- standardize institutional terminology;
-- regulate multilingual documentation;
-- preserve semantic consistency;
-- support governance automation;
-- facilitate international collaboration.
+## Language Consistency
+
+Maintain a unified terminology model across the entire ecosystem.
+
+---
+
+## Canonical Interpretation
+
+Ensure every official document has one authoritative linguistic interpretation.
+
+---
+
+## International Compatibility
+
+Support future global operations without losing governance consistency.
+
+---
+
+## Knowledge Preservation
+
+Maintain institutional understanding across generations, translations and organizational growth.
+
+---
+
+## Artificial Intelligence Compatibility
+
+Enable deterministic interpretation by AI systems through explicit terminology and language rules.
 
 ---
 
 # Official Languages
 
-Breto's Holding Group recognizes the following official governance languages:
+Breto's Holding Group recognizes official languages for governance, operations and institutional communication.
 
-- English
-- Spanish
+The use of official languages shall preserve semantic consistency and documentary integrity.
 
-Additional languages may be incorporated through formal governance approval.
+---
+
+# Governance Language
+
+English is established as the primary governance language for:
+
+- governance architecture;
+- metadata structures;
+- repositories;
+- technical documentation;
+- automation systems;
+- Artificial Intelligence integration;
+- international interoperability.
+
+All machine-readable governance artifacts shall use English as their canonical language unless formally approved otherwise.
+
+---
+
+# Operational Language
+
+Spanish is recognized as an official operational language within the BHG ecosystem.
+
+Spanish may be used for:
+
+- regional operations;
+- educational materials;
+- internal communication;
+- stakeholder interaction;
+- operational documentation.
+
+Operational language usage shall not alter the canonical meaning of governance artifacts.
+
+---
+
+# Additional Languages
+
+Additional languages may be incorporated into the BHG ecosystem through formal governance approval.
+
+Any language addition shall evaluate:
+
+- terminology consistency;
+- translation capability;
+- maintenance requirements;
+- automation compatibility;
+- long-term preservation.
+
+No additional language shall become an official governance language without approval through the applicable governance process.
 
 ---
 
 # Canonical Language
 
-Every governance document shall declare one and only one canonical language through the metadata field:
+Every official document shall declare exactly one canonical language through the metadata field:
 
-- language
+yaml
+language:
 
-The canonical language represents the authoritative interpretation of the document.
+The canonical language represents the authoritative version of interpretation.
 
----
+The canonical language shall determine:
 
-# Translation Principles
+- official terminology;
+- conflict resolution;
+- automated interpretation;
+- semantic validation.
+- Translation Governance
 
-Translations may exist for operational or educational purposes.
+Translations may exist to improve accessibility and operational adoption.
 
-Translations shall never replace the canonical document.
+However:
 
-Whenever conflicts exist:
+- translations are derivative artifacts;
+- translations do not replace the canonical document;
+- translations shall preserve the original intent;
+- translations shall maintain traceability to the canonical document.
 
-The canonical language version prevails.
+When differences exist between versions:
 
----
+The canonical language version shall prevail.
+
+# Translation Requirements
+
+Every translated document should maintain:
+
+- reference to the original document;
+- equivalent document identifier;
+- synchronized version reference;
+- translation status;
+- responsible authority.
+
+A translation shall not be considered an independent governance source.
 
 # Institutional Terminology
 
-Official institutional concepts shall maintain one canonical designation throughout the ecosystem.
+Official BHG concepts shall maintain a controlled terminology model.
 
-Examples include:
+The same concept shall use the same institutional designation throughout the ecosystem.
 
-- Constitution
-- Governance
-- Standard
-- Policy
-- Corporate Compliance Engine
-- Governance Council
-- Artificial Intelligence
-- Repository
-- Baseline
+Examples:
 
-Synonyms shall not be used when they may create ambiguity.
+Constitution
+Governance
+Policy
+Standard
+Procedure
+Repository
+Baseline
+Governance Council
+Artificial Intelligence
 
----
+# Terminology Restrictions
 
-# Technical Terminology
+Documents shall avoid:
 
-Official names of:
+unnecessary synonyms;
+ambiguous expressions;
+undocumented abbreviations;
+inconsistent translations of institutional concepts.
 
-- repositories;
-- governance artifacts;
-- standards;
-- policies;
-- engines;
-- protocols;
-- software components;
+When a term has an official definition, that definition shall prevail across all governance artifacts.
 
-shall remain unchanged regardless of translation.
+# Technical Naming Rules
 
----
+The following elements shall preserve their official names regardless of document language:
 
-# Multilingual Documentation
+repository names;
+file names;
+identifiers;
+APIs;
+software components;
+engines;
+protocols;
+governance artifacts.
 
-Repositories may contain documents written in different languages.
+Examples:
 
-Each document shall:
+BHG-Governance
 
-- declare its canonical language;
-- preserve metadata consistency;
-- maintain semantic equivalence where translations exist.
+GENESIS_BOOTSTRAP
 
----
+BKOs
 
-# Artificial Intelligence Compatibility
+Governance Pipeline
 
-Artificial Intelligence systems shall use the canonical language to:
-
-- resolve governance conflicts;
-- identify authoritative definitions;
-- preserve semantic consistency;
-- support multilingual search;
-- generate contextual recommendations.
-
-AI systems shall not infer canonical terminology.
-
-Canonical terminology shall always be explicitly defined.
-
----
-
-# Validation Requirements
-
-The Corporate Compliance Engine shall verify:
-
-- presence of the language metadata field;
-- validity of the declared language;
-- terminology consistency;
-- canonical language uniqueness;
-- multilingual consistency where applicable.
-
-Documents failing language validation shall not reach Approved status.
-
----
-
-# Governance Evolution
-
-The official language model may evolve through governance approval.
-
-Language changes shall preserve:
-
-- documentary traceability;
-- semantic consistency;
-- backward compatibility whenever possible.
-
----
-
-# Long-Term Preservation
-
-The language governance model shall ensure that institutional knowledge remains understandable across generations regardless of linguistic evolution.
-
-Canonical terminology shall preserve documentary continuity even when future translations or additional official languages are introduced.
+Official technical identifiers shall never be translated when translation may affect discoverability or traceability.
 
 ---
 
 # Compliance
 
-Compliance with this policy is mandatory for every governance document within the BHG ecosystem.
+Compliance with this policy is mandatory for every governance document, repository artifact and automated documentation process within the BHG ecosystem.
 
-Documents not conforming to this policy shall not be considered compliant governance artifacts.
+Any document that does not comply with this policy shall be considered a non-conformant governance artifact and shall not reach an approved governance state.
 
 ---
 
-# Institutional Principle
+# Exception Management
 
-> Consistent language preserves consistent governance.
+Exceptions to the official language governance model shall require:
 
-> Shared terminology enables institutional continuity across generations.
+* documented justification;
+* identified impact;
+* responsible authority approval;
+* traceable governance decision.
+
+Approved exceptions shall preserve:
+
+* documentary identity;
+* historical traceability;
+* semantic integrity;
+* future migration capability.
+
+---
+
+# Governance Integration
+
+This policy integrates with the BHG documentation governance system by establishing language as a controlled metadata attribute.
+
+Language governance shall be considered part of:
+
+* document identity;
+* document validation;
+* knowledge preservation;
+* governance automation;
+* repository consistency.
+
+---
+
+# Long-Term Preservation
+
+The language governance model shall preserve institutional knowledge across organizational growth, technological evolution and future generations.
+
+Canonical terminology shall maintain continuity between historical, current and future governance artifacts.
+
+---
+
+# Final Institutional Principle
+
+Language is an infrastructure layer of governance.
+
+A controlled language model enables consistent interpretation, reliable automation and preservation of institutional knowledge throughout the evolution of Breto's Holding Group.
