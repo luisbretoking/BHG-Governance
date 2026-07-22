@@ -1,219 +1,392 @@
+---
+title: Policy Hierarchy
+document_id: BHG-POL-001
+version: 1.1.0
+status: Approved
+document_type: Corporate Policy
+governance_level: Policy (P0)
+owner: BHG Governance Council
+approval_authority: BHG Governance Council
+created: 2026-07-19
+last_updated: 2026-07-22
+effective_date: 2026-07-22
+classification: Internal
+language: English
+repository: BHG Governance
+
+governed_by:
+  - BHG_CONSTITUTION.md
+  - LEGAL_HIERARCHY.md
+  - GOVERNANCE_MODEL.md
+  - AUTHORITY_MODEL.md
+
+governs:
+  - CHANGE_POLICY.md
+  - DOCUMENT_POLICY.md
+  - DECISION_POLICY.md
+  - COMMUNICATION_POLICY.md
+  - LANGUAGE_POLICY.md
+  - VERSIONING_POLICY.md
+
+depends_on:
+  - LEGAL_HIERARCHY.md
+  - GOVERNANCE_MODEL.md
+  - AUTHORITY_MODEL.md
+  - AUTHORITY_MATRIX.md
+
+related_to:
+  - GOVERNANCE_PIPELINE.md
+  - GOVERNANCE_PROPOSAL_STANDARD.md
+  - GOVERNANCE_CONFLICT_RESOLUTION.md
+  - DOCUMENT_POLICY.md
+  - CHANGE_POLICY.md
+---
+
 # Policy Hierarchy
 
-> Modelo Oficial de Jerarquía de Políticas de Breto's Holding Group
+> **Official policy hierarchy model of Breto's Holding Group.**
 
 ---
 
-# Estado
+# Document Metadata
 
-Versión: 1.0.0
-
-Estado: Activo
-
-Nivel Normativo: Política Marco
-
----
-
-# Propósito
-
-Este documento define la estructura jerárquica mediante la cual se organizan todas las políticas del ecosistema Breto's Holding Group.
-
-Su objetivo es garantizar consistencia, trazabilidad, escalabilidad y alineación con la Constitución y los Modelos Fundamentales.
-
----
-
-# Principios
-
-## Principio 1 — Herencia normativa
-
-Toda política deriva su autoridad de una norma superior.
-
-Ninguna política existe de forma independiente.
+| Field | Value |
+|--------|-------|
+| Document ID | BHG-POL-001 |
+| Title | Policy Hierarchy |
+| Version | 1.1.0 |
+| Status | Approved |
+| Classification | Internal |
+| Language | English |
+| Owner | BHG Governance Council |
+| Repository | BHG Governance |
+| Author | BHG Governance Office |
+| Approved By | BHG Governance Council |
+| Created | 2026-07-19 |
+| Last Updated | 2026-07-22 |
+| Effective Date | 2026-07-22 |
 
 ---
 
-## Principio 2 — No contradicción
+# Objective
 
-Una política de nivel inferior no podrá contradecir una política superior.
+This document defines the official hierarchy governing every policy within the Breto's Holding Group ecosystem.
 
----
+Its purpose is to establish a consistent, traceable and scalable policy framework aligned with the constitutional governance model and the Legal Hierarchy.
 
-## Principio 3 — Especialización
+Every corporate policy shall derive its authority from higher normative artifacts while providing operational guidance to lower governance levels.
 
-Las políticas inferiores amplían el detalle de las superiores.
+This document governs policy relationships only.
 
-Nunca las reemplazan.
-
----
-
-## Principio 4 — Reutilización
-
-Las políticas deberán diseñarse para ser reutilizadas por múltiples empresas, productos y sistemas del Holding.
+It does not define operational requirements contained within individual policies.
 
 ---
 
-## Principio 5 — Escalabilidad
+# Normative Authority
 
-La estructura deberá soportar el crecimiento futuro del ecosistema sin requerir rediseños fundamentales.
+## Governed By
 
----
+- BHG Constitution
+- Legal Hierarchy
+- Governance Model
+- Authority Model
 
-# Niveles de Política
+## Governs
 
-## Nivel P0 — Política Corporativa
-
-Aplicación:
-
-Todo el ecosistema BHG.
-
-Ejemplos:
-
-* Document Policy
-* Decision Policy
-* Change Policy
-
-Estas políticas poseen el mayor alcance operativo.
+- Corporate Policies
+- Domain Policies
+- Company Policies
+- Product Policies
+- Operational Policies
 
 ---
 
-## Nivel P1 — Política de Dominio
+# Scope
 
-Aplicación:
+This document applies to every policy published within the BHG Governance repository and to every future policy adopted throughout the Breto's Holding Group ecosystem.
 
-Un dominio específico.
-
-Ejemplos:
-
-* Ingeniería
-* IA
-* Seguridad
-* Certificación
-* Conocimiento
+All policies shall comply with the hierarchy defined herein unless an officially approved governance decision explicitly supersedes this document.
 
 ---
 
-## Nivel P2 — Política de Empresa
+# Architecture Principles
 
-Aplicación:
+The policy hierarchy is designed to preserve governance consistency while enabling organizational growth across multiple companies, products and governance domains.
 
-Una empresa específica del Holding.
+Every policy shall preserve these principles.
 
-Ejemplos futuros:
+## 1. Normative Inheritance
 
-* ZIVA Latam
-* BREG Personal
-* FL-OS
+Every policy derives its authority from one or more higher governance artifacts.
 
----
+No policy exists independently.
 
-## Nivel P3 — Política de Producto
-
-Aplicación:
-
-Un producto o sistema específico.
-
-Ejemplos:
-
-* BKOs
-* ZTC
-* Motores de IA
+Authority always flows downward through the governance hierarchy.
 
 ---
 
-## Nivel P4 — Política Operativa
+## 2. Non-Contradiction
 
-Aplicación:
+Lower-level policies shall never contradict higher-level policies.
 
-Procesos particulares.
-
-Su alcance es limitado y específico.
+Whenever a conflict exists, the higher normative authority prevails.
 
 ---
 
-# Modelo de Herencia
+## 3. Progressive Specialization
 
-La autoridad fluye:
+Each policy level expands the level above by providing additional operational detail.
 
-Constitución
+Policies complement higher governance artifacts.
 
-↓
+They never replace them.
 
-Modelos Fundamentales
+# Policy Levels
 
-↓
+## P0 — Corporate Policies
 
-Políticas Corporativas
+Corporate Policies apply to the entire BHG ecosystem.
 
-↓
+They establish mandatory operational rules that every Company, Subsidiary, Subholding, Product, Service, Repository and Governance Body shall follow.
 
-Políticas de Dominio
+Typical examples include:
 
-↓
+- Documentation Policy
+- Change Policy
+- Decision Policy
+- Communication Policy
+- Language Policy
+- Versioning Policy
 
-Políticas de Empresa
-
-↓
-
-Políticas de Producto
-
-↓
-
-Políticas Operativas
+Corporate Policies may only be approved by the competent governance authority defined by the Authority Model.
 
 ---
 
-# Resolución de Conflictos
+## P1 — Domain Policies
 
-Ante conflicto entre políticas:
+Domain Policies govern a specific organizational domain.
 
-1. Prevalece la política de mayor nivel.
-2. Si pertenecen al mismo nivel, prevalece la más específica.
-3. Si ambas poseen el mismo alcance, prevalece la versión más reciente aprobada.
-4. Si el conflicto persiste, decidirá la autoridad competente definida en el Modelo de Gobernanza.
+Examples include:
 
----
+- Engineering
+- Artificial Intelligence
+- Security
+- Knowledge Management
+- Compliance
+- Certification
+- Finance
+- Human Resources
 
-# Requisitos Obligatorios
-
-Toda política deberá incluir:
-
-* Propósito.
-* Alcance.
-* Autoridad normativa.
-* Responsables.
-* Reglas obligatorias.
-* Excepciones permitidas.
-* Procedimiento de revisión.
-* Historial de versiones.
+Domain Policies shall remain fully compatible with all Corporate Policies.
 
 ---
 
-# Compatibilidad con BKOs
+## P2 — Company Policies
 
-BKOs deberá utilizar esta jerarquía para:
+Company Policies apply to a specific company belonging to Breto's Holding Group.
 
-* determinar aplicabilidad;
-* resolver conflictos;
-* identificar dependencias;
-* detectar inconsistencias;
-* generar recomendaciones de cumplimiento.
+Each company may define additional operational rules provided they:
 
----
+- comply with the Constitution;
+- comply with Fundamental Models;
+- comply with Corporate Policies;
+- do not contradict higher-level governance artifacts.
 
-# Revisión
-
-Todas las políticas deberán revisarse periódicamente para garantizar:
-
-* vigencia;
-* coherencia;
-* cumplimiento constitucional;
-* alineación estratégica.
+Company Policies may extend governance requirements but shall never reduce them.
 
 ---
 
-# Principio Final
+## P3 — Product Policies
 
-Las políticas existen para convertir los principios del Holding en reglas operativas consistentes.
+Product Policies govern an individual product, platform, service or operational system.
 
-Una política bien estructurada permite que organizaciones complejas operen bajo un mismo marco de gobernanza sin perder coherencia.
+Examples include:
 
+- BKOs
+- BEiA
+- Genesis
+- ZIVA Platform
+- Internal operational platforms
+
+Product Policies shall inherit all applicable governance obligations from higher policy levels.
+
+---
+
+## P4 — Operational Policies
+
+Operational Policies govern specific operational activities, teams or procedures.
+
+Their scope is intentionally limited.
+
+Operational Policies shall always reference the higher-level policies from which they derive authority.
+
+---
+
+# Policy Inheritance Model
+
+Normative authority shall flow through the following hierarchy:
+
+```
+BHG Constitution
+        ↓
+Fundamental Governance Models
+        ↓
+Corporate Policies (P0)
+        ↓
+Domain Policies (P1)
+        ↓
+Company Policies (P2)
+        ↓
+Product Policies (P3)
+        ↓
+Operational Policies (P4)
+```
+
+Each lower policy level shall inherit the governance principles established by all higher levels.
+
+Inheritance provides consistency without preventing specialization.
+
+---
+
+# Policy Conflict Resolution
+
+When two or more policies appear to conflict, the following precedence order shall apply:
+
+1. Higher governance level prevails.
+2. If both policies belong to the same governance level, the more specific policy prevails.
+3. If both have the same scope, the most recently approved policy prevails.
+4. If ambiguity remains, the competent governance authority defined in the Authority Model shall issue the final interpretation.
+
+Conflict resolution shall preserve:
+
+- constitutional consistency;
+- governance traceability;
+- legal hierarchy;
+- institutional coherence.
+
+---
+
+# Mandatory Components of Every Policy
+
+Every official policy shall include, at minimum:
+
+- Purpose
+- Scope
+- Normative Authority
+- Roles and Responsibilities
+- Mandatory Rules
+- Exceptions
+- Compliance Requirements
+- Review Process
+- Version Information
+- Related Documents
+- Governance Metadata
+
+Policies missing mandatory sections shall not be considered governance-compliant.
+
+---
+
+# Policy Dependencies
+
+Every policy shall explicitly identify:
+
+## Governed By
+
+Higher-level governance artifacts that provide normative authority.
+
+## Governs
+
+Lower-level governance artifacts that derive authority from the policy.
+
+## Depends On
+
+Supporting governance artifacts required for interpretation or implementation.
+
+## Related To
+
+Documents that complement the policy without establishing normative dependency.
+
+# BKOs and AI Compatibility
+
+BKOs and authorized Artificial Intelligence systems shall use this Policy Hierarchy to:
+
+- determine policy applicability;
+- identify policy dependencies;
+- resolve policy conflicts;
+- detect governance inconsistencies;
+- validate policy inheritance;
+- recommend governance improvements;
+- support compliance verification.
+
+AI systems may assist in policy interpretation.
+
+Final governance authority shall always remain with the competent human governance body.
+
+---
+
+# Policy Review
+
+Every policy shall be reviewed periodically according to its governance level.
+
+The review process shall verify:
+
+- constitutional alignment;
+- consistency with higher-level governance artifacts;
+- organizational relevance;
+- implementation effectiveness;
+- dependency integrity;
+- compliance status.
+
+Policy reviews may result in:
+
+- confirmation without changes;
+- revision;
+- replacement;
+- consolidation;
+- retirement.
+
+Every review shall be documented and remain fully traceable.
+
+---
+
+# Governance as Code
+
+Policy definitions shall be structured to support automated governance verification.
+
+Corporate governance systems may automatically:
+
+- validate governance metadata;
+- verify policy inheritance;
+- detect missing dependencies;
+- identify obsolete references;
+- detect policy conflicts;
+- monitor policy compliance;
+- generate governance reports.
+
+Automation shall support governance.
+
+Human governance authority shall always govern governance.
+
+---
+
+# Compliance
+
+Every governance artifact classified as a Policy shall comply with this Policy Hierarchy.
+
+Any policy that:
+
+- contradicts higher-level governance artifacts;
+- omits mandatory governance metadata;
+- lacks normative authority;
+- contains unresolved dependency conflicts;
+- violates the Legal Hierarchy;
+
+shall be considered a governance non-conformity and shall be managed according to the Governance Conflict Resolution process.
+
+---
+
+# Final Principle
+
+Policies transform the constitutional principles of Breto's Holding Group into consistent operational rules.
+
+A coherent policy hierarchy enables every Company, Subholding, Product, Service, Repository and AI System to evolve independently while remaining aligned with the governance principles of the entire BHG ecosystem.
