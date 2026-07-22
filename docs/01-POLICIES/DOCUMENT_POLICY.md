@@ -1,202 +1,516 @@
+---
+title: Document Policy
+document_id: BHG-POL-002
+version: 1.1.0
+status: Approved
+document_type: Policy
+governance_level: Corporate Policy
+owner: BHG Governance Council
+approval_authority: BHG Governance Council
+created: 2026-07-19
+last_updated: 2026-07-22
+effective_date: 2026-07-22
+classification: Internal
+language: English
+repository: BHG Governance
+
+governed_by:
+  - README.md
+  - ARCHITECTURE_MAP.md
+  - docs/00-FOUNDATION/BHG_CONSTITUTION.md
+  - docs/00-FOUNDATION/GOVERNANCE_MODEL.md
+  - docs/00-FOUNDATION/AUTHORITY_MODEL.md
+  - docs/00-FOUNDATION/LEGAL_HIERARCHY.md
+
+governs:
+  - All official governance documents
+  - Documentation lifecycle
+  - Document metadata standards
+  - Documentation review process
+  - Documentation versioning
+  - Documentation publication rules
+
+depends_on:
+  - docs/00-FOUNDATION/GOVERNANCE_MODEL.md
+  - docs/00-FOUNDATION/AUTHORITY_MODEL.md
+  - docs/00-FOUNDATION/AUTHORITY_MATRIX.md
+  - docs/00-FOUNDATION/LEGAL_HIERARCHY.md
+  - docs/00-FOUNDATION/GLOSSARY.md
+
+related_to:
+  - docs/01-POLICIES/CHANGE_POLICY.md
+  - docs/00-FOUNDATION/GOVERNANCE_PIPELINE.md
+  - docs/00-FOUNDATION/GOVERNANCE_PROPOSAL_STANDARD.md
+  - docs/00-FOUNDATION/GOVERNANCE_CONFLICT_RESOLUTION.md
+---
+
 # Document Policy
 
-> Política Corporativa de Gestión Documental de Breto's Holding Group
+> **Official policy governing institutional documentation throughout the Breto's Holding Group ecosystem.**
 
 ---
 
-# Estado
+# Document Metadata
 
-Versión: 1.0.0
-
-Estado: Activo
-
-Nivel Normativo: Política Corporativa (P0)
-
----
-
-# Propósito
-
-La documentación constituye uno de los activos estratégicos del Holding.
-
-Esta política establece las normas obligatorias para garantizar que toda la información institucional sea consistente, trazable, verificable, mantenible y reutilizable durante todo su ciclo de vida.
-
----
-
-# Alcance
-
-Esta política aplica a:
-
-* BHG Governance.
-* BHG Knowledge.
-* BKOs.
-* Todas las empresas del Holding.
-* Todos los productos.
-* Todos los servicios.
-* Todos los repositorios.
-* Toda documentación oficial.
+| Field | Value |
+|--------|-------|
+| Document ID | BHG-POL-002 |
+| Title | Document Policy |
+| Version | 1.1.0 |
+| Status | Approved |
+| Classification | Internal |
+| Language | English |
+| Owner | BHG Governance Council |
+| Repository | BHG Governance |
+| Author | BHG Governance Office |
+| Approved By | BHG Governance Council |
+| Created | 2026-07-19 |
+| Last Updated | 2026-07-22 |
+| Effective Date | 2026-07-22 |
 
 ---
 
-# Principios
+# Objective
 
-## 1. Documento único
+This policy establishes the official rules governing the creation, maintenance, versioning, publication, review and preservation of every institutional document within the Breto's Holding Group ecosystem.
 
-Cada conocimiento deberá poseer un único documento maestro.
+Documentation is recognized as a strategic institutional asset.
 
-No podrán existir múltiples documentos oficiales con el mismo propósito.
+Its purpose is not merely to store information, but to preserve knowledge, establish governance authority, support organizational continuity and enable deterministic interpretation by both humans and authorized Artificial Intelligence systems.
 
----
-
-## 2. Fuente única de verdad
-
-La versión oficial será siempre aquella publicada en el repositorio autorizado.
-
-Las copias derivadas no sustituyen al documento original.
+This policy defines the mandatory requirements that every official document shall satisfy throughout its entire lifecycle.
 
 ---
 
-## 3. Trazabilidad
+# Normative Authority
 
-Todo documento deberá permitir reconstruir:
+## Governed By
 
-* origen;
-* evolución;
-* responsables;
-* aprobaciones;
-* dependencias.
+- README.md
+- ARCHITECTURE_MAP.md
+- BHG Constitution
+- Governance Model
+- Authority Model
+- Legal Hierarchy
 
----
+## Governs
 
-## 4. Versionado permanente
-
-Los documentos evolucionan.
-
-Nunca se sobrescriben sin conservar su historial.
-
----
-
-## 5. Gobernanza
-
-Todo documento deberá indicar claramente:
-
-* quién lo gobierna;
-* qué documentos gobierna;
-* nivel de autoridad;
-* estado;
-* versión.
+- Official governance documentation
+- Documentation lifecycle
+- Metadata requirements
+- Documentation ownership
+- Documentation publication
+- Documentation version control
+- Documentation review
+- Documentation archival
+- Documentation integrity
 
 ---
 
-## 6. Revisión periódica
+# Scope
 
-Todo documento deberá revisarse según la periodicidad definida por su nivel normativo.
+This policy applies to every official document produced, maintained or archived within the Breto's Holding Group ecosystem.
 
----
+Its requirements are mandatory for:
 
-## 7. Comprensión humana
+- BHG Governance;
+- BHG Knowledge;
+- BKOs;
+- every Company;
+- every Subholding;
+- every Subsidiary;
+- every official repository;
+- every governance artifact;
+- every policy;
+- every standard;
+- every procedure;
+- every engineering document;
+- every AI governance document.
 
-Toda documentación deberá ser comprensible para una persona con conocimientos razonables sobre el dominio correspondiente.
-
----
-
-## 8. Comprensión por IA
-
-Los documentos deberán redactarse de forma estructurada para facilitar su interpretación por sistemas de inteligencia artificial.
-
----
-
-# Ciclo de Vida Documental
-
-Todo documento oficial seguirá las siguientes etapas:
-
-1. Propuesta.
-2. Borrador.
-3. Revisión.
-4. Aprobación.
-5. Publicación.
-6. Vigencia.
-7. Revisión periódica.
-8. Sustitución o retiro.
-
-Cada transición deberá quedar registrada.
+Unofficial notes, temporary drafts and personal working materials are excluded unless explicitly incorporated into the official governance repository.
 
 ---
 
-# Clasificación documental
+# Policy Principles
 
-Todo documento deberá indicar su nivel de clasificación conforme al estándar corporativo correspondiente.
+The following principles govern institutional documentation throughout Breto's Holding Group.
 
-La clasificación determinará los requisitos de acceso, distribución y conservación.
+## 1. Documentation as a Strategic Asset
 
----
+Documentation is institutional capital.
 
-# Metadatos obligatorios
+Every official document contributes to preserving organizational knowledge, governance continuity and long-term institutional resilience.
 
-Todo documento oficial deberá incorporar una identidad documental corporativa (BDI) definida por el estándar correspondiente.
-
-Como mínimo deberá permitir identificar:
-
-* documento;
-* versión;
-* autoridad;
-* propietario;
-* responsable;
-* estado;
-* clasificación;
-* repositorio de origen.
+Documentation shall therefore be managed with the same discipline applied to every other strategic organizational asset.
 
 ---
 
-# Integridad
+## 2. Single Source of Truth
 
-Toda modificación deberá:
+Every governance subject shall have one authoritative document.
 
-* quedar registrada;
-* mantener el historial;
-* indicar responsable;
-* indicar motivo;
-* conservar la trazabilidad de versiones.
+Duplicate authoritative documents are prohibited.
+
+Supporting documents may reference normative sources but shall never redefine them.
 
 ---
 
-# Compatibilidad
+## 3. Documentation Before Implementation
 
-Los documentos deberán diseñarse para ser compatibles con:
+Normative documentation shall precede implementation whenever governance authority is required.
 
-* revisión humana;
-* automatización;
-* auditorías;
-* búsqueda semántica;
-* BKOs;
-* sistemas de inteligencia artificial.
+Products, repositories, engineering standards and operational procedures shall derive their legitimacy from approved documentation.
+
+Implementation follows governance.
+
+Documentation establishes governance.
+
+## 4. Governance Metadata
+
+Every official governance document shall explicitly declare its governance metadata.
+
+Mandatory metadata shall include, at minimum:
+
+- title;
+- document identifier;
+- version;
+- lifecycle status;
+- document type;
+- governance level;
+- owner;
+- approval authority;
+- creation date;
+- last updated date;
+- effective date;
+- classification;
+- language;
+- repository;
+- governing documents;
+- governed documents;
+- dependencies;
+- related documents.
+
+Metadata shall remain structured, deterministic and machine-readable.
 
 ---
 
-# Conservación
+## 5. Explicit Normative Authority
 
-Ningún documento institucional podrá eliminarse sin seguir el procedimiento corporativo correspondiente.
+Every official document shall explicitly identify:
 
-Cuando un documento deje de estar vigente deberá archivarse conservando su historial y referencias.
+- the documents that govern it;
+- the documents that it governs;
+- its normative scope;
+- its governance responsibility.
 
----
+Normative authority shall never be inferred.
 
-# Excepciones
-
-Las excepciones únicamente podrán aprobarse por la autoridad competente definida por el Modelo de Gobernanza.
-
-Toda excepción deberá documentarse y justificar su necesidad.
-
----
-
-# Cumplimiento
-
-El incumplimiento de esta política deberá registrarse como una no conformidad y gestionarse mediante los procedimientos establecidos por el Holding.
+It shall always be explicitly documented.
 
 ---
 
-# Principio Final
+## 6. Complete Traceability
 
-Los documentos no existen únicamente para almacenar información.
+Institutional documentation shall preserve complete traceability throughout its lifecycle.
 
-Existen para preservar el conocimiento, justificar las decisiones y garantizar la continuidad institucional de Breto's Holding Group.
+Every document shall make it possible to reconstruct:
 
+- its origin;
+- its approval history;
+- its version history;
+- responsible governance authorities;
+- dependency relationships;
+- related governance decisions.
+
+Traceability shall never be intentionally broken.
+
+---
+
+## 7. Version Preservation
+
+Official documentation evolves continuously.
+
+Previous versions constitute institutional evidence.
+
+Historical versions shall therefore remain preserved according to the repository archival policy.
+
+Replacing historical documentation without preserving previous versions is prohibited.
+
+---
+
+## 8. Human Readability
+
+Official documentation shall remain understandable by qualified human readers.
+
+Documents shall prioritize:
+
+- explicit language;
+- consistent terminology;
+- stable structure;
+- unambiguous definitions;
+- predictable organization.
+
+Complexity shall never reduce clarity.
+
+---
+
+## 9. Artificial Intelligence Readability
+
+Documentation shall also support deterministic interpretation by authorized Artificial Intelligence systems.
+
+Documents shall therefore prioritize:
+
+- structured metadata;
+- explicit authority;
+- stable terminology;
+- deterministic hierarchy;
+- machine-readable relationships;
+- consistent formatting.
+
+AI interoperability shall complement, not replace, human readability.
+
+---
+
+## 10. Periodic Review
+
+Every official document shall define its review lifecycle.
+
+Responsible governance authorities shall periodically verify:
+
+- continued relevance;
+- governance consistency;
+- legal compatibility;
+- architectural alignment;
+- terminology consistency;
+- dependency integrity.
+
+Review frequency may vary according to governance level.
+
+---
+
+# Documentation Lifecycle
+
+Every official document shall follow the institutional documentation lifecycle.
+
+```
+Proposal
+    │
+    ▼
+Draft
+    │
+    ▼
+Review
+    │
+    ▼
+Approval
+    │
+    ▼
+Publication
+    │
+    ▼
+Effective
+    │
+    ▼
+Periodic Review
+    │
+    ▼
+Revision
+    │
+    ▼
+Superseded / Archived
+```
+
+Every lifecycle transition shall be documented.
+
+Lifecycle history forms part of institutional evidence.
+
+---
+
+# Documentation Classification
+
+Every official document shall define its information classification.
+
+Classification determines:
+
+- distribution;
+- access control;
+- retention requirements;
+- archival requirements;
+- governance handling procedures.
+
+Document classification shall follow the corporate information classification framework.
+
+---
+
+# Documentation Ownership
+
+Every official document shall identify a responsible owner.
+
+Document ownership includes responsibility for:
+
+- maintaining accuracy;
+- initiating reviews;
+- coordinating updates;
+- preserving consistency;
+- maintaining dependency integrity.
+
+Ownership does not imply unilateral authority to modify governance.
+
+Normative modifications require approval by the appropriate governance authority.
+
+---
+
+# Version Management
+
+Every official document shall use semantic document versioning.
+
+Version changes shall accurately reflect governance impact.
+
+Major versions indicate normative changes.
+
+Minor versions indicate approved functional improvements.
+
+Patch versions indicate editorial corrections that do not alter governance meaning.
+
+Version history shall remain permanently accessible.
+
+# Publication Requirements
+
+Only officially approved documents may be published as normative governance artifacts.
+
+Publication shall verify:
+
+- governance approval;
+- document integrity;
+- metadata completeness;
+- dependency consistency;
+- repository location;
+- version assignment.
+
+Publication does not itself grant normative authority.
+
+Normative authority derives from the applicable governance framework.
+
+---
+
+# Document Integrity
+
+Every modification to an official document shall preserve:
+
+- version history;
+- governance traceability;
+- dependency relationships;
+- document identity;
+- approval history.
+
+Unauthorized modifications constitute governance non-conformities.
+
+---
+
+# Compatibility Requirements
+
+Official documentation shall remain compatible with:
+
+- human governance;
+- repository navigation;
+- governance audits;
+- semantic search;
+- BKOs;
+- authorized Artificial Intelligence systems;
+- future governance automation platforms.
+
+Compatibility shall be preserved throughout the document lifecycle.
+
+---
+
+# Archival Policy
+
+Official documents shall never be permanently removed without following the approved governance archival process.
+
+When a document is superseded:
+
+- historical versions shall remain preserved;
+- references shall remain valid whenever technically feasible;
+- replacement documents shall identify the superseded version;
+- institutional traceability shall remain uninterrupted.
+
+Historical documentation shall never become normative authority.
+
+---
+
+# Exceptions
+
+Exceptions to this policy require explicit approval by the competent governance authority defined by the Authority Model.
+
+Every approved exception shall:
+
+- be documented;
+- include business justification;
+- define scope;
+- identify affected governance artifacts;
+- preserve complete traceability.
+
+Exceptions shall remain exceptional.
+
+They shall never become implicit governance practices.
+
+---
+
+# Compliance
+
+Failure to comply with this policy constitutes a governance non-conformity.
+
+Non-conformities shall be managed according to:
+
+- Governance Conflict Resolution;
+- Change Policy;
+- Governance Pipeline;
+- applicable governance audit procedures.
+
+Corrective actions shall preserve institutional evidence.
+
+---
+
+# AI Interpretation
+
+Authorized Artificial Intelligence systems shall use this policy to:
+
+- validate document metadata;
+- verify governance relationships;
+- identify missing mandatory sections;
+- detect duplicate authoritative documents;
+- validate lifecycle consistency;
+- support governance audits.
+
+AI systems may recommend improvements.
+
+They shall never establish or modify governance authority.
+
+---
+
+# Relationship with Other Governance Documents
+
+This policy establishes the mandatory rules governing institutional documentation.
+
+It shall be interpreted together with:
+
+- Governance Model;
+- Authority Model;
+- Legal Hierarchy;
+- Change Policy;
+- Governance Pipeline;
+- Governance Proposal Standard.
+
+Together, these documents establish the complete governance framework for documentary management within Breto's Holding Group.
+
+---
+
+# Final Principle
+
+Institutional knowledge only becomes organizational capital when it is governed.
+
+Documentation preserves knowledge.
+
+Governance preserves documentation.
+
+Together they preserve the institution.
