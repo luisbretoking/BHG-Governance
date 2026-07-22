@@ -1,189 +1,366 @@
+---
+title: Change Policy
+document_id: BHG-POL-001
+version: 1.1.0
+status: Approved
+document_type: Corporate Policy
+governance_level: Policy
+owner: BHG Governance Council
+approval_authority: BHG Governance Council
+created: 2026-07-21
+last_updated: 2026-07-21
+effective_date: 2026-07-21
+classification: Internal
+language: en
+repository: BHG Governance
+
+governed_by:
+  - docs/00-FOUNDATION/BHG_CONSTITUTION.md
+  - docs/00-FOUNDATION/GOVERNANCE_MODEL.md
+  - docs/00-FOUNDATION/AUTHORITY_MODEL.md
+  - docs/00-FOUNDATION/AUTHORITY_MATRIX.md
+  - docs/00-FOUNDATION/LEGAL_HIERARCHY.md
+
+governs:
+  - Change management process
+  - Change registration
+  - Change evaluation
+  - Change approval lifecycle
+
+depends_on:
+  - docs/00-FOUNDATION/GOVERNANCE_PIPELINE.md
+  - docs/00-FOUNDATION/GOVERNANCE_PROPOSAL_STANDARD.md
+
+related_to:
+  - docs/00-FOUNDATION/GOVERNANCE_CONFLICT_RESOLUTION.md
+  - docs/00-FOUNDATION/BHG_FOUNDATION_BOOK.md
+---
+
 # Change Policy
 
-> Política Corporativa de Gestión del Cambio de Breto's Holding Group
+> Official Change Management Policy of Breto's Holding Group.
 
 ---
 
-# Estado
+# Purpose
 
-Versión: 1.0.0
+This policy establishes the official framework for managing changes that affect the Breto's Holding Group ecosystem.
 
-Estado: Activo
+Its objective is to ensure that every change is identified, evaluated, authorized, implemented and reviewed through a controlled and traceable process.
 
-Nivel Normativo: Política Corporativa (P0)
-
----
-
-# Propósito
-
-Esta política establece el marco oficial para gestionar cualquier cambio que afecte al ecosistema Breto's Holding Group.
-
-Su finalidad es asegurar que los cambios sean planificados, evaluados, autorizados, comunicados, implementados y revisados de forma consistente y trazable.
+Change management exists to preserve institutional stability while enabling responsible evolution.
 
 ---
 
-# Alcance
+# Scope
 
-Aplica a:
+This policy applies to changes affecting:
 
-* documentos;
-* políticas;
-* estándares;
-* repositorios;
-* software;
-* infraestructura;
-* modelos de IA;
-* procesos;
-* empresas;
-* productos;
-* servicios.
+- Governance documents;
+- Policies;
+- Standards;
+- Procedures;
+- Repositories;
+- Software systems;
+- Infrastructure;
+- Artificial Intelligence systems;
+- Operational processes;
+- Companies;
+- Products;
+- Services;
+- Institutional knowledge assets.
 
----
-
-# Principios
-
-## 1. Ningún cambio sin registro
-
-Todo cambio deberá iniciar con un registro formal.
+Every organizational unit within the BHG ecosystem shall comply with this policy.
 
 ---
 
-## 2. Ningún cambio sin análisis
+# Core Principles
 
-Antes de su aprobación deberá evaluarse:
+## Principle 1 — No Change Without Registration
 
-* impacto;
-* riesgos;
-* dependencias;
-* compatibilidad;
-* costo;
-* beneficios.
+Every change shall begin with a formal record.
+
+Unregistered changes shall not be considered official.
 
 ---
 
-## 3. Ningún cambio sin autoridad
+## Principle 2 — No Change Without Analysis
 
-Todo cambio requerirá aprobación por la autoridad competente definida por el Modelo de Autoridad.
+Before approval, every change shall be evaluated according to:
 
----
-
-## 4. Ningún cambio elimina la historia
-
-Toda modificación conservará el historial de versiones, decisiones y evidencias.
-
----
-
-## 5. Cambios proporcionales
-
-El nivel de control será proporcional al impacto esperado.
+- impact;
+- risks;
+- dependencies;
+- compatibility;
+- cost;
+- expected benefits.
 
 ---
 
-# Clasificación de cambios
+## Principle 3 — No Change Without Authority
 
-## Cambio Correctivo
-
-Corrige errores sin modificar el comportamiento esperado.
+Every change shall require approval from the competent authority defined by the Authority Model and Authority Matrix.
 
 ---
 
-## Cambio Evolutivo
+## Principle 4 — No Change Without Historical Preservation
 
-Añade capacidades compatibles con la arquitectura existente.
+Every modification shall preserve:
 
----
+- previous versions;
+- decision records;
+- approval evidence;
+- implementation history.
 
-## Cambio Arquitectónico
-
-Modifica componentes estructurales del ecosistema.
-
-Requiere evaluación ampliada.
-
----
-
-## Cambio Estratégico
-
-Impacta la dirección del Holding, su gobernanza o su modelo operativo.
-
-Requiere aprobación del órgano competente.
+Institutional memory shall never be lost.
 
 ---
 
-# Ciclo de Vida del Cambio
+## Principle 5 — Proportional Governance
 
-1. Solicitud.
-2. Registro.
-3. Clasificación.
-4. Análisis de impacto.
-5. Evaluación de riesgos.
-6. Aprobación.
-7. Planificación.
-8. Implementación.
-9. Verificación.
-10. Cierre.
-11. Lecciones aprendidas.
+The level of governance control shall correspond to the expected impact and risk of the change.
 
 ---
 
-# Gestión del impacto
+# Change Classification
 
-Todo cambio deberá identificar:
-
-* documentos afectados;
-* políticas relacionadas;
-* estándares afectados;
-* proyectos impactados;
-* empresas involucradas;
-* dependencias técnicas;
-* riesgos de compatibilidad.
+Changes shall be classified according to their impact.
 
 ---
 
-# Comunicación
+# Corrective Change
 
-Los cambios deberán comunicarse a todas las partes interesadas cuya operación pueda verse afectada.
+A modification intended to fix errors without altering the expected behavior or architecture.
 
----
+Examples:
 
-# Reversibilidad
-
-Cuando sea técnicamente posible, todo cambio deberá contar con un plan de reversión.
-
----
-
-# Compatibilidad con BKOs
-
-BKOs deberá:
-
-* identificar automáticamente dependencias;
-* estimar impacto;
-* detectar conflictos normativos;
-* sugerir planes de migración;
-* conservar la trazabilidad completa del cambio.
-
-BKOs podrá recomendar acciones, pero la aprobación corresponderá siempre a la autoridad competente.
+- documentation corrections;
+- defect resolution;
+- consistency fixes.
 
 ---
 
-# Auditoría
+# Evolutionary Change
 
-Todo cambio deberá poder responder:
+A modification that introduces improvements while maintaining compatibility with existing architecture.
 
-* qué cambió;
-* por qué cambió;
-* quién lo aprobó;
-* quién lo implementó;
-* cuándo ocurrió;
-* qué impacto produjo;
-* qué activos fueron afectados.
+Examples:
+
+- capability improvements;
+- process optimization;
+- documentation expansion.
 
 ---
 
-# Principio Final
+# Architectural Change
 
-El cambio es inevitable.
+A modification that affects structural components of the ecosystem.
 
-La pérdida de control sobre el cambio no lo es.
+Examples:
 
-Toda evolución del ecosistema deberá fortalecer la estabilidad, la coherencia y la continuidad institucional de Breto's Holding Group.
+- repository architecture;
+- governance architecture;
+- system boundaries;
+- organizational models.
 
+Architectural changes require extended impact analysis.
+
+---
+
+# Strategic Change
+
+A modification affecting:
+
+- Holding direction;
+- governance principles;
+- business model;
+- organizational structure;
+- long-term institutional strategy.
+
+Strategic changes require approval from the appropriate governance authority.
+
+---
+
+# Change Lifecycle
+
+Every change shall follow the official lifecycle:
+Request
+
+↓
+
+Registration
+
+↓
+
+Classification
+
+↓
+
+Impact Assessment
+
+↓
+
+Risk Assessment
+
+↓
+
+Approval
+
+↓
+
+Planning
+
+↓
+
+Implementation
+
+↓
+
+Verification
+
+↓
+
+Closure
+
+↓
+
+Lessons Learned
+No stage may be skipped unless explicitly authorized through governance procedures.
+
+---
+
+# Impact Assessment
+
+Every change shall identify:
+
+- affected documents;
+- related policies;
+- affected standards;
+- impacted projects;
+- involved companies;
+- technical dependencies;
+- compatibility risks;
+- operational consequences.
+
+---
+
+# Risk Assessment
+
+Change evaluation shall consider:
+
+- governance risks;
+- operational risks;
+- security risks;
+- technical risks;
+- legal risks;
+- organizational risks.
+
+Mitigation strategies shall be documented when required.
+
+---
+
+# Approval Authority
+
+Change approval shall follow the Authority Model.
+
+The approval authority shall depend on:
+
+- change classification;
+- organizational impact;
+- affected governance level;
+- risk level.
+
+No individual may approve changes outside their delegated authority.
+
+---
+
+# Implementation Control
+
+Approved changes shall:
+
+- follow the approved implementation plan;
+- preserve traceability;
+- update affected documentation;
+- maintain version history.
+
+---
+
+# Communication
+
+Changes shall be communicated to all stakeholders whose responsibilities, operations or systems may be affected.
+
+Communication requirements shall be proportional to change impact.
+
+---
+
+# Reversibility
+
+Whenever technically possible, significant changes shall include a rollback or recovery strategy.
+
+The responsible authority shall evaluate reversibility requirements before implementation.
+
+---
+
+# BKOs Integration
+
+BKOs shall support change governance by:
+
+- identifying document dependencies;
+- analyzing affected knowledge assets;
+- detecting conflicts;
+- preserving change history;
+- supporting impact analysis.
+
+BKOs may recommend actions.
+
+Final approval remains exclusively with authorized human governance bodies.
+
+---
+
+# Audit Requirements
+
+Every change shall be capable of answering:
+
+- What changed?
+- Why was the change required?
+- Who approved it?
+- Who implemented it?
+- When was it implemented?
+- What assets were affected?
+- What impact resulted?
+
+---
+
+# Governance as Code Compatibility
+
+Change records shall be structured to support automated verification.
+
+Authorized AI systems may validate:
+
+- required metadata;
+- approval authority;
+- dependency consistency;
+- version relationships;
+- historical traceability.
+
+Automation supports governance.
+
+Automation does not replace governance authority.
+
+---
+
+# Compliance
+
+Changes executed outside this policy shall be considered governance non-conformities.
+
+Such cases shall follow the Governance Conflict Resolution process.
+
+---
+
+# Final Principle
+
+Change is inevitable.
+
+Loss of control over change is not.
+
+Every evolution of the BHG ecosystem shall strengthen stability, coherence and institutional continuity.
