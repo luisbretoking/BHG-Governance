@@ -1,303 +1,487 @@
+---
+title: AI Governance Policy
+document_id: AI_GOVERNANCE_POLICY
+version: 1.1.0
+status: Approved
+document_type: Policy
+governance_level: Domain
+owner: Ziva Engineering
+approval_authority: BHG Governance Council
+created: 2026-07-21
+last_updated: 2026-07-22
+effective_date: 2026-07-22
+classification: Internal
+language: en
+repository: BHG-GOVERNANCE
+
+governed_by:
+  - BHG_CONSTITUTION.md
+  - GOVERNANCE_MODEL.md
+  - AI_CONSTITUTION.md
+  - POLICY_HIERARCHY.md
+  - DOCUMENT_POLICY.md
+  - DOCUMENT_STANDARD.md
+  - DOCUMENT_METADATA_STANDARD.md
+
+governs:
+  - AI_SECURITY_POLICY.md
+  - AI_DECISION_POLICY.md
+  - AI_DOCUMENTATION_POLICY.md
+  - AI_PROMPT_POLICY.md
+  - AI_CODE_REVIEW_POLICY.md
+  - AI_AGENT_STANDARD.md
+  - MULTI_AGENT_STANDARD.md
+  - PROMPT_STANDARD.md
+  - TOOL_INTEGRATION_STANDARD.md
+
+depends_on:
+  - AI_CONSTITUTION.md
+  - AI_SECURITY_POLICY.md
+  - DOCUMENT_STANDARD.md
+  - VERSIONING_POLICY.md
+
+related_to:
+  - AI_AGENT_ACCESS_POLICY.md
+  - AI_AGENT_IDENTITY_STANDARD.md
+  - AI_AGENT_PERMISSION_MODEL.md
+  - GENESIS_RUNTIME.md
+  - GENESIS_COMMAND_PROTOCOL.md
+---
+
 # AI Governance Policy
 
-Version: 1.0.0
-
-Status: Approved
-
-Owner: Ziva Engineering
+> Defines the governance framework for Artificial Intelligence systems operating within the Breto's Holding Group ecosystem.
 
 ---
 
-# 1. Purpose
+# Purpose
 
-This document defines the governance framework for every Artificial Intelligence system used inside the Ziva ecosystem.
+This policy establishes the official governance framework for all Artificial Intelligence systems operating within the BHG ecosystem.
 
-Its objective is to ensure that AI remains:
+Its purpose is to ensure that Artificial Intelligence remains:
 
-- Safe
-- Auditable
-- Transparent
-- Predictable
-- Human-centered
-- Legally compliant
+* Safe.
+* Auditable.
+* Transparent.
+* Predictable.
+* Human-governed.
+* Legally compliant.
+* Aligned with institutional principles.
 
----
+Artificial Intelligence provides capabilities.
 
-# 2. Scope
+Governance provides authority.
 
-This policy applies to:
-
-- LLMs
-- AI Agents
-- Prompt Systems
-- RAG Systems
-- Workflows
-- Autonomous Agents
-- AI APIs
-- Local Models
-- Fine-tuned Models
-- Multi-agent Systems
-
-No exception is allowed.
+AI systems shall never replace institutional decision-making authority.
 
 ---
 
-# 3. Core Principles
+# Scope
 
-Every AI system shall comply with the following principles.
+This policy applies to every Artificial Intelligence capability developed, integrated, operated or maintained within the BHG ecosystem.
 
-## 3.1 Human Oversight
+Including:
 
-Critical decisions shall never be fully autonomous.
+* Large Language Models (LLMs).
+* AI Agents.
+* Prompt Systems.
+* Retrieval-Augmented Generation (RAG) Systems.
+* Automated AI Workflows.
+* Autonomous Agents.
+* AI APIs.
+* Local Models.
+* Fine-tuned Models.
+* Multi-Agent Systems.
 
-A human must always retain final authority.
-
----
-
-## 3.2 Transparency
-
-Every AI-generated output must be distinguishable from human-generated content whenever legally or operationally required.
-
----
-
-## 3.3 Auditability
-
-Every important AI action shall be traceable.
-
-Logs must include:
-
-- timestamp
-- model
-- prompt version
-- workflow version
-- execution identifier
+No AI capability shall operate outside the governance framework defined by this policy.
 
 ---
 
-## 3.4 Explainability
+# Governance Principles
 
-Whenever possible, AI systems should provide reasoning that can be reviewed by humans.
-
-Opaque decisions should be minimized.
+Every Artificial Intelligence system shall comply with the following principles.
 
 ---
 
-## 3.5 Security
+## Human Authority
 
-AI systems shall never bypass security controls.
+Critical decisions shall never be exclusively delegated to Artificial Intelligence.
 
-They shall respect:
-
-- authentication
-- authorization
-- least privilege
-- zero trust
+Human governance authorities retain final approval responsibility.
 
 ---
 
-## 3.6 Privacy
+## Transparency
 
-AI must never expose confidential information.
-
-Personal information shall only be processed according to approved policies.
+AI-generated outputs shall be distinguishable from human-generated content whenever required by operational, legal or governance requirements.
 
 ---
 
-## 3.7 Documentation First
+## Auditability
 
-No AI capability shall be implemented before its documentation exists.
+Every relevant AI operation shall maintain sufficient traceability.
+
+Audit records should include:
+
+* timestamp;
+* model identifier;
+* prompt version;
+* workflow version;
+* execution identifier;
+* responsible system.
+
+---
+## Explainability
+
+Artificial Intelligence systems should provide sufficient context to allow human review of relevant outputs and decisions.
+
+Opaque AI behavior shall be minimized, especially in systems that influence:
+
+* governance decisions;
+* financial operations;
+* security processes;
+* user trust;
+* institutional knowledge.
 
 ---
 
-# 4. AI Decision Levels
+## Security
 
-## Level 0
+Artificial Intelligence systems shall operate under approved security controls.
 
-Information only.
+AI systems shall respect:
 
-No decision.
+* authentication requirements;
+* authorization boundaries;
+* least privilege principles;
+* zero trust principles;
+* data protection requirements.
+
+Artificial Intelligence shall never bypass institutional security mechanisms.
+
+---
+
+## Privacy
+
+Artificial Intelligence systems shall protect confidential and personal information.
+
+Data processing shall comply with:
+
+* approved privacy policies;
+* access control requirements;
+* data classification rules;
+* applicable legal requirements.
+
+---
+
+## Documentation First
+
+No Artificial Intelligence capability shall be implemented without documented governance requirements.
+
+Before deployment, every AI capability shall define:
+
+* purpose;
+* scope;
+* risks;
+* ownership;
+* operational requirements;
+* lifecycle expectations.
+
+---
+
+# AI Decision Authority Levels
+
+Artificial Intelligence capabilities shall be classified according to their decision authority level.
+
+---
+
+## Level 0 — Information Support
+
+Purpose:
+
+Provide information without making decisions.
 
 Examples:
 
-- summarization
-- search
-- translation
+* summarization;
+* search assistance;
+* translation;
+* information organization.
+
+No autonomous action is performed.
 
 ---
 
-## Level 1
+## Level 1 — Recommendation
 
-Recommendations.
+Purpose:
 
-Human approval required.
+Provide suggestions or analysis.
 
----
+Human review and approval are mandatory before execution.
 
-## Level 2
+Examples:
 
-Semi-autonomous execution.
-
-Human approval required before execution.
-
----
-
-## Level 3
-
-Autonomous execution.
-
-Only allowed for pre-approved low-risk workflows.
+* recommendations;
+* prioritization;
+* analysis reports.
 
 ---
 
-## Level 4
+## Level 2 — Assisted Execution
 
-Critical operations.
+Purpose:
 
-Forbidden without explicit governance approval.
+Execute approved actions under human supervision.
 
----
+Human approval is required before execution.
 
-# 5. Approved AI Providers
+Examples:
 
-Only approved providers may be used.
-
-Examples include:
-
-- OpenAI
-- Anthropic
-- Google
-- Microsoft
-- approved local models
-
-The approved provider list shall be maintained separately.
+* controlled workflows;
+* operational automation;
+* approved repository changes.
 
 ---
 
-# 6. Prompt Governance
+## Level 3 — Limited Autonomous Execution
 
-Every production prompt shall have:
+Purpose:
 
-- unique identifier
-- owner
-- version
-- changelog
-- review history
+Execute predefined low-risk workflows.
 
-Prompts without version control are prohibited.
+Allowed only when:
+
+* scope is explicitly approved;
+* permissions are restricted;
+* monitoring exists;
+* rollback capability exists.
 
 ---
 
-# 7. Agent Governance
+## Level 4 — Critical Autonomous Operations
+
+Purpose:
+
+Operations with significant institutional impact.
+
+Critical autonomous execution is prohibited unless explicitly authorized through governance approval.
+
+---
+
+# AI Provider Governance
+
+Only approved Artificial Intelligence providers may be integrated into the BHG ecosystem.
+
+Approved providers shall be maintained through controlled governance records.
+
+Provider evaluation shall consider:
+
+* security;
+* reliability;
+* privacy;
+* compliance;
+* technical capabilities;
+* operational risks.
+
+Examples of approved providers may include:
+
+* OpenAI;
+* Anthropic;
+* Google;
+* Microsoft;
+* approved local models.
+
+---
+
+# Prompt Governance
+
+Production prompts shall be treated as controlled governance assets.
+
+Every production prompt shall maintain:
+
+* unique identifier;
+* owner;
+* version;
+* change history;
+* review history;
+* approval status.
+
+Unversioned production prompts are prohibited.
+
+---
+
+# AI Agent Governance
 
 Every AI Agent shall define:
 
-- objective
-- responsibilities
-- permissions
-- available tools
-- escalation rules
-- failure behavior
-- audit requirements
+* objective;
+* responsibilities;
+* permissions;
+* available tools;
+* escalation rules;
+* failure behavior;
+* audit requirements.
+
+AI Agents shall operate only within their authorized capability boundaries.
 
 ---
 
-# 8. Workflow Governance
+# Workflow Governance
 
-Every workflow shall define:
+Every AI workflow shall define:
 
-- trigger
-- inputs
-- outputs
-- validation
-- rollback
-- monitoring
+* trigger conditions;
+* inputs;
+* outputs;
+* validation requirements;
+* rollback procedures;
+* monitoring requirements.
 
----
-
-# 9. Memory Governance
-
-AI memory shall be classified as:
-
-- temporary
-- session
-- persistent
-- organizational
-
-Each category shall have retention rules.
+Workflows shall be designed for controlled execution and auditability.
 
 ---
 
-# 10. Model Governance
+# Memory Governance
 
-Every model shall define:
+AI memory shall be classified according to retention and operational purpose.
 
-- provider
-- version
-- capabilities
-- limitations
-- context size
-- evaluation history
+Official categories:
 
----
+## Temporary Memory
 
-# 11. Risk Management
-
-Every AI capability shall be classified according to risk.
-
-Risk categories include:
-
-- Low
-- Moderate
-- High
-- Critical
-
-Critical systems require additional review.
+Short-lived information used only during immediate execution.
 
 ---
 
-# 12. Monitoring
+## Session Memory
 
-Every production AI shall include monitoring for:
-
-- failures
-- latency
-- hallucinations
-- security incidents
-- abnormal behavior
+Information maintained during a specific interaction context.
 
 ---
 
-# 13. Incident Response
+## Persistent Memory
 
-AI incidents shall be documented.
-
-Each incident shall include:
-
-- description
-- impact
-- affected systems
-- root cause
-- corrective actions
-- preventive actions
+Information retained across multiple interactions according to approved policies.
 
 ---
 
-# 14. Versioning
+## Organizational Memory
 
-This policy follows Semantic Versioning.
-
-Major changes require engineering approval.
+Institutional knowledge governed as a controlled BHG asset.
 
 ---
 
-# 15. Compliance
+Each memory category shall define:
 
-Non-compliant AI systems shall not be deployed.
-
-Engineering teams are responsible for ensuring compliance before release.
+* retention period;
+* access requirements;
+* ownership;
+* deletion or archival rules.
 
 ---
 
 # 16. Review
 
 This policy shall be reviewed periodically and updated whenever governance requirements evolve.
+
+---
+
+# Governance Integration
+
+This policy integrates with the broader BHG governance ecosystem.
+
+AI governance decisions shall maintain compatibility with:
+
+* Governance Model.
+* Authority Model.
+* Document Policy.
+* Document Metadata Standard.
+* Security Governance.
+* Change Management.
+* Audit Framework.
+
+AI governance shall never operate as an isolated discipline.
+
+It shall remain aligned with institutional governance principles.
+
+---
+
+# AI Governance Lifecycle
+
+Every Artificial Intelligence capability shall follow a controlled lifecycle:
+
+1. Proposal.
+2. Documentation.
+3. Risk Assessment.
+4. Governance Review.
+5. Approval.
+6. Implementation.
+7. Monitoring.
+8. Audit.
+9. Improvement or Retirement.
+
+No AI capability shall bypass this lifecycle.
+
+---
+
+# AI Governance Records
+
+Every governed AI system shall maintain sufficient records to reconstruct:
+
+* purpose;
+* ownership;
+* configuration;
+* permissions;
+* decisions;
+* executions;
+* changes;
+* incidents;
+* audit history.
+
+Records shall remain available according to applicable retention policies.
+
+---
+
+# Artificial Intelligence Authority Limitation
+
+Artificial Intelligence systems may:
+
+* analyze information;
+* generate recommendations;
+* detect patterns;
+* identify risks;
+* assist governance processes.
+
+Artificial Intelligence systems shall never:
+
+* create institutional authority;
+* approve governance changes;
+* override human decisions;
+* modify governance artifacts without authorization.
+
+Human governance authority remains the final decision mechanism.
+
+---
+
+# Continuous Improvement
+
+AI governance shall evolve through:
+
+* evidence;
+* operational experience;
+* security findings;
+* technological changes;
+* regulatory developments;
+* governance reviews.
+
+Every improvement shall preserve traceability and institutional consistency.
+
+---
+
+# Final Principle
+
+Artificial Intelligence is a strategic capability of the ecosystem.
+
+Its value depends on controlled implementation, responsible operation and alignment with the governance principles of Breto's Holding Group.
+
