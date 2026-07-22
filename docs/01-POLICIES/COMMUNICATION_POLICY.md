@@ -1,152 +1,322 @@
-# Communication Policy
+---
+title: Communication Policy
+document_id: BHG-POL-COM-001
+version: 1.1.0
+status: Active
+document_type: Corporate Policy
+governance_level: P0
+owner: BHG Governance Council
+approval_authority: BHG Governance Council
+created: 2026-07-22
+last_updated: 2026-07-22
+effective_date: 2026-07-22
+classification: Internal
+language: en
+repository: BHG-Governance
+governed_by:
+  - BHG_CONSTITUTION.md
+  - GOVERNANCE_MODEL.md
+  - LEGAL_HIERARCHY.md
+  - POLICY_HIERARCHY.md
+  - DOCUMENT_POLICY.md
+  - VERSIONING_POLICY.md
+  - DECISION_POLICY.md
+governs:
+  - Institutional Communications
+  - System Communications
+  - AI Agent Communications
+  - Knowledge Communications
+depends_on:
+  - DOCUMENT_CLASSIFICATION_STANDARD.md
+  - TRACEABILITY_STANDARD.md
+related_to:
+  - DOCUMENT_POLICY.md
+  - DECISION_POLICY.md
+  - AI_GOVERNANCE_POLICY.md
+---Communication Policy
+Purpose
 
-> Política Corporativa de Comunicación de Breto's Holding Group
+This policy establishes the mandatory rules governing communication throughout the Breto's Holding Group ecosystem.
+
+Its objective is to ensure that institutional information is communicated in a structured, traceable, verifiable and governed manner.
+
+All relevant communications shall preserve institutional clarity, operational alignment and historical accountability.
+
+Scope
+
+This policy applies to:
+
+BHG governance bodies;
+Holding companies;
+subsidiaries;
+subholdings;
+projects;
+products;
+services;
+repositories;
+BKOs;
+BEiA;
+artificial intelligence systems;
+automated integrations.
+Core Principles
+Principle 1 — Single Source of Truth
+
+Official communication shall originate from or be recorded within an authorized ecosystem asset.
+
+Communication without the required institutional record shall not be considered an official source when documentation is mandatory.
+
+Principle 2 — Traceability
+
+Relevant institutional communication shall allow identification of:
+
+origin;
+author;
+timestamp;
+recipients;
+purpose;
+classification;
+current status.
+Principle 3 — Proportionality
+
+The level of formality, protection and documentation required shall be proportional to:
+
+impact;
+sensitivity;
+operational importance;
+governance relevance. 
+
+Principle 4 — Classification
+
+Communications shall be classified according to their sensitivity level.
+
+Official classifications include:
+
+Public;
+Internal;
+Confidential;
+Restricted.
+
+Classification determines applicable access, retention and protection requirements.
+
+Principle 5 — Clarity
+
+Institutional communications shall use precise language and avoid unnecessary ambiguity.
+
+Principle 6 — Consistency
+
+All institutional communication shall remain aligned with approved documentation, policies and governance decisions
+
+# Communication Channels
+
+Institutional communication channels shall be classified and governed according to their purpose, sensitivity and operational impact.
+
+Approved communication channels may include:
+
+- Governance repositories.
+- Document management systems.
+- Approved collaboration platforms.
+- Enterprise communication systems.
+- Automated system integrations.
+- AI-assisted communication interfaces.
+
+Unofficial channels shall not replace official governance records when formal traceability is required.
 
 ---
 
-# Estado
+# Communication Records
 
-Versión: 1.0.0
+Relevant institutional communications shall preserve sufficient information to reconstruct their context.
 
-Estado: Activo
+Communication records should include:
 
-Nivel Normativo: Política Corporativa (P0)
-
----
-
-# Propósito
-
-Esta política establece los principios que regulan la comunicación dentro del ecosistema Breto's Holding Group.
-
-Toda información institucional deberá circular de forma estructurada, verificable, trazable y conforme al modelo de gobernanza.
-
----
-
-# Alcance
-
-Aplica a:
-
-* personas;
-* empresas del Holding;
-* repositorios;
-* proyectos;
-* productos;
-* sistemas;
-* BKOs;
-* BEiA;
-* agentes de IA;
-* integraciones automáticas.
+- communication identifier;
+- source;
+- destination;
+- timestamp;
+- responsible authority;
+- classification;
+- related documents;
+- associated decisions;
+- retention requirements.
 
 ---
 
-# Principios
+# Communication Between Systems
 
-## 1. Fuente única de verdad
+Automated communications between systems shall comply with governance and security requirements.
 
-Toda información oficial deberá originarse o quedar registrada en un activo autorizado del ecosistema.
+System communications shall:
 
-No se reconocerán como oficiales comunicaciones que carezcan de respaldo documental cuando dicho respaldo sea exigible.
+- identify origin and destination;
+- maintain unique identifiers;
+- preserve data integrity;
+- support auditability;
+- follow authorized protocols;
+- maintain compatibility with approved architectures.
 
----
-
-## 2. Trazabilidad
-
-Toda comunicación institucional relevante deberá permitir identificar:
-
-* origen;
-* autor;
-* fecha;
-* destinatarios;
-* propósito;
-* estado.
+Automated communication shall not bypass governance controls.
 
 ---
 
-## 3. Proporcionalidad
+# Communication Between AI Systems
 
-El nivel de formalidad de la comunicación será proporcional al impacto de la información transmitida.
+Artificial Intelligence systems participating in institutional communication shall operate under approved governance boundaries.
 
----
+AI systems may:
 
-## 4. Clasificación
+- exchange authorized information;
+- analyze communication patterns;
+- identify inconsistencies;
+- generate summaries;
+- recommend improvements.
 
-Toda comunicación podrá clasificarse según su nivel de sensibilidad.
+AI systems shall never:
 
-Como mínimo se contemplan las siguientes categorías:
-
-* Pública.
-* Uso interno.
-* Confidencial.
-* Restringida.
-
-Cada categoría determinará los mecanismos de acceso, conservación y protección aplicables.
-
----
-
-## 5. Claridad
-
-Las comunicaciones deberán utilizar un lenguaje preciso, evitando ambigüedades innecesarias.
+- create unauthorized institutional decisions;
+- override human authority;
+- modify governance records without authorization;
+- bypass access controls.
 
 ---
 
-## 6. Coherencia
+# BEiA Communication Model
 
-La información comunicada deberá ser consistente con la documentación oficial vigente.
+BEiA instances may communicate with each other when:
 
----
+- authorization exists;
+- the communication purpose is defined;
+- required permissions are validated;
+- the interaction is traceable.
 
-# Comunicación entre sistemas
+All BEiA communications affecting institutional knowledge shall preserve:
 
-Las comunicaciones automatizadas deberán:
+- context;
+- origin;
+- processing history;
+- generated outputs;
+- responsible authority.
 
-* registrar origen y destino;
-* conservar identificadores únicos;
-* mantener integridad de la información;
-* permitir auditoría posterior.
-
----
-
-# Comunicación entre asistentes BEiA
-
-Los asistentes especializados podrán intercambiar información únicamente cuando:
-
-* exista autorización;
-* el flujo esté documentado;
-* se respeten las políticas de acceso;
-* la transferencia sea necesaria para cumplir una función corporativa.
-
-Toda interacción deberá quedar registrada para fines de auditoría.
+BEiA recommendations remain advisory unless explicitly converted into approved governance decisions.
 
 ---
 
-# Comunicación con BKOs
+# BKOs Communication Integration
 
-BKOs actuará como repositorio de conocimiento y contexto.
+BKOs acts as the institutional knowledge coordination layer.
 
-Las comunicaciones que modifiquen conocimiento institucional deberán registrarse siguiendo las políticas documentales y de versionado.
+Communications that modify, create or update institutional knowledge shall comply with:
 
----
+- Document Policy;
+- Versioning Policy;
+- Traceability requirements;
+- Document Relationship Standards.
 
-# Comunicación con terceros
+BKOs shall support:
 
-Toda información compartida con entidades externas deberá cumplir:
+- knowledge registration;
+- dependency identification;
+- historical reconstruction;
+- semantic organization;
+- controlled access.
 
-* las políticas de confidencialidad;
-* las restricciones contractuales;
-* las normas legales aplicables;
-* las autorizaciones definidas por el Modelo de Autoridad.
-
----
-
-# Auditoría
-
-Toda comunicación institucional deberá poder reconstruirse cuando sea necesaria para procesos de revisión, investigación o mejora continua.
+BKOs provides knowledge management capabilities but does not replace governance authority.
 
 ---
 
-# Principio Final
+# External Communication
 
-La comunicación es un activo estratégico.
+Communication with external entities shall require appropriate authorization.
 
-Su valor depende de que sea comprensible, verificable y gobernada.
+External communications shall comply with:
 
+- legal obligations;
+- contractual requirements;
+- confidentiality requirements;
+- intellectual property protections;
+- applicable governance policies.
+
+External information sharing shall only occur through authorized representatives or systems.
+
+---
+
+# Communication Security
+
+Institutional communications shall protect:
+
+- confidentiality;
+- integrity;
+- availability;
+- authenticity;
+- accountability.
+
+Sensitive communications shall apply additional controls according to their classification level.
+
+---
+
+# Communication Retention
+
+Institutional communications that represent evidence, decisions, approvals or operational history shall be preserved according to applicable retention requirements.
+
+No relevant communication record shall be deleted outside approved governance procedures.
+
+---
+
+# Communication Auditing
+
+Institutional communication may be audited to verify:
+
+- compliance with this policy;
+- authorization;
+- traceability;
+- classification accuracy;
+- information integrity;
+- alignment with governance decisions.
+
+Audit results shall become part of the institutional improvement process.
+
+---
+
+# Exceptions
+
+Exceptions to this policy shall:
+
+- be justified;
+- identify the affected communication process;
+- define the associated risks;
+- receive approval from the competent authority.
+
+Approved exceptions shall be documented and periodically reviewed.
+
+---
+
+# Policy Evolution
+
+This policy shall evolve according to:
+
+- governance changes;
+- technological evolution;
+- organizational growth;
+- security requirements;
+- operational lessons learned.
+
+Any modification shall follow the official governance change process.
+
+---
+
+# Compliance
+
+Failure to comply with this policy shall be considered a governance non-conformity.
+
+Non-conformities shall be managed according to:
+
+- Governance Conflict Resolution;
+- Change Policy;
+- applicable compliance procedures.
+
+---
+
+# Final Principle
+
+Communication preserves institutional alignment.
+
+A governed communication system ensures that knowledge, decisions and actions remain connected throughout the evolution of Breto's Holding Group.
